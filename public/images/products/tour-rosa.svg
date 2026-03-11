@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <rect width="400" height="400" fill="#242424"/>
+  <!-- Base platform -->
+  <rect x="110" y="300" width="180" height="18" rx="4" fill="#3a3a3a"/>
+  <!-- Pedestal / column -->
+  <path d="M170 210 L230 210 L220 295 L180 295 Z" fill="#3a3a3a"/>
+  <!-- Pedestal flare bottom -->
+  <path d="M140 295 L260 295 L250 305 L150 305 Z" fill="#3a3a3a"/>
+  <!-- Wheel head (top disc) -->
+  <ellipse cx="200" cy="195" rx="85" ry="18" fill="#e0544d"/>
+  <!-- Inner wheel ring -->
+  <ellipse cx="200" cy="194" rx="65" ry="12" fill="#242424" opacity="0.3"/>
+  <!-- Wheel center dot -->
+  <ellipse cx="200" cy="193" rx="8" ry="3" fill="#f5f5f5" opacity="0.3"/>
+  <!-- Splash pan -->
+  <ellipse cx="200" cy="200" rx="95" ry="20" fill="none" stroke="#e0544d" stroke-width="2.5" opacity="0.4"/>
+  <!-- Premium star / diamond accent -->
+  <polygon points="200,100 205,112 218,112 208,120 212,133 200,125 188,133 192,120 182,112 195,112" fill="#e0544d" opacity="0.7"/>
+  <!-- Small sparkle lines -->
+  <line x1="200" y1="90" x2="200" y2="96" stroke="#f5f5f5" stroke-width="1" opacity="0.4"/>
+  <line x1="224" y1="116" x2="230" y2="116" stroke="#f5f5f5" stroke-width="1" opacity="0.4"/>
+  <line x1="170" y1="116" x2="176" y2="116" stroke="#f5f5f5" stroke-width="1" opacity="0.4"/>
+  <!-- Label -->
+  <text x="200" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#f5f5f5" opacity="0.6">Tour Rosa</text>
+</svg>

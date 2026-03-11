@@ -1,0 +1,35 @@
+---
+import ProductCard from './ProductCard.astro';
+
+interface Product {
+  id: string;
+  data: {
+    name: string;
+    price: number;
+    image: string;
+    description: string;
+    inStock: boolean;
+    order: number;
+  };
+}
+
+interface Props {
+  products: Product[];
+}
+
+const { products } = Astro.props;
+const sorted = [...products].sort((a, b) => a.data.order - b.data.order);
+---
+
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+  {sorted.map(product => (
+    <ProductCard
+      name={product.data.name}
+      price={product.data.price}
+      image={product.data.image}
+      description={product.data.description}
+      slug={product.id}
+      inStock={product.data.inStock}
+    />
+  ))}
+</div>

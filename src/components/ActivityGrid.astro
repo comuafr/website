@@ -1,0 +1,50 @@
+---
+import ActivityCard from './ActivityCard.astro';
+import Container from './ui/Container.astro';
+import SectionHeading from './ui/SectionHeading.astro';
+
+const activities = [
+  {
+    title: 'Usinage',
+    description: 'Usinage de précision CNC et conventionnel. Tournage, fraisage et rectification pour pièces unitaires et petites séries.',
+    href: '/usinage',
+    icon: '&#9881;',
+    accentColor: '#5b9bd5',
+  },
+  {
+    title: 'Soudure',
+    description: 'Soudure TIG, MIG/MAG et à l\'arc sur acier, inox et aluminium. Assemblages structurels et finitions soignées.',
+    href: '/soudure',
+    icon: '&#9889;',
+    accentColor: '#f4a460',
+  },
+  {
+    title: 'Tours de potier',
+    description: 'Conception et vente de tours de potier professionnels et accessoires. Fabrication artisanale française.',
+    href: '/poterie',
+    icon: '&#127860;',
+    accentColor: '#cd853f',
+  },
+  {
+    title: 'Ingénierie informatique',
+    description: 'Conseil et développement logiciel. Architecture systèmes, automatisation et solutions sur mesure.',
+    href: '/ingenierie',
+    icon: '&#128187;',
+    accentColor: '#6bc5d2',
+  },
+];
+---
+
+<section id="activites" class="py-16 lg:py-24">
+  <Container>
+    <SectionHeading
+      title="Nos activités"
+      subtitle="Quatre domaines d'expertise au service de votre projet"
+    />
+    <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
+      {activities.map(activity => (
+        <ActivityCard {...activity} />
+      ))}
+    </div>
+  </Container>
+</section>

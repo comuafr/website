@@ -1,0 +1,60 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Container from '../../components/ui/Container.astro';
+import ProductGrid from '../../components/ProductGrid.astro';
+import ContactCTA from '../../components/ContactCTA.astro';
+import { getCollection } from 'astro:content';
+
+const products = await getCollection('products');
+const tours = products.filter(p => p.data.category === 'tours');
+const accessoires = products.filter(p => p.data.category === 'accessoires');
+---
+
+<BaseLayout title="Tours de potier et accessoires — COMUA" description="Découvrez nos tours de potier professionnels fabriqués en France et nos accessoires : girelles, pédales, bacs et rondeaux.">
+  <!-- Hero -->
+  <section class="relative py-20 lg:py-32 overflow-hidden">
+    <div class="absolute inset-0 bg-gradient-to-b from-poterie/5 to-transparent"></div>
+    <Container class="relative z-10">
+      <div class="max-w-3xl">
+        <nav aria-label="Fil d'Ariane" class="flex items-center gap-3 mb-6">
+          <div class="w-12 h-12 rounded-lg flex items-center justify-center text-2xl bg-poterie/10">
+            &#127860;
+          </div>
+          <ol class="flex items-center gap-2 text-sm">
+            <li><a href="/" class="text-text-secondary hover:text-primary transition-colors">Accueil</a></li>
+            <li aria-hidden="true" class="text-text-secondary/40">/</li>
+            <li aria-current="page" class="text-poterie">Boutique</li>
+          </ol>
+        </nav>
+        <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-text-primary mb-4" style="font-family: var(--font-heading);">
+          Tours de potier
+        </h1>
+        <p class="text-xl lg:text-2xl text-text-secondary leading-relaxed">
+          Fabrication artisanale française de tours de potier professionnels et accessoires
+        </p>
+      </div>
+    </Container>
+  </section>
+
+  <!-- Tours -->
+  <section class="py-16 lg:py-24">
+    <Container>
+      <h2 class="text-2xl lg:text-3xl font-bold text-text-primary mb-10" style="font-family: var(--font-heading);">
+        Nos tours de potier
+      </h2>
+      <ProductGrid products={tours} />
+    </Container>
+  </section>
+
+  <!-- Accessoires -->
+  <section class="py-16 lg:py-24 bg-bg-secondary">
+    <Container>
+      <h2 class="text-2xl lg:text-3xl font-bold text-text-primary mb-10" style="font-family: var(--font-heading);">
+        Accessoires
+      </h2>
+      <ProductGrid products={accessoires} />
+    </Container>
+  </section>
+
+  <ContactCTA />
+</BaseLayout>

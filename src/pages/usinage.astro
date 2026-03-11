@@ -1,0 +1,20 @@
+---
+import ActivityLayout from '../layouts/ActivityLayout.astro';
+import { getCollection } from 'astro:content';
+import { render } from 'astro:content';
+
+const activities = await getCollection('activities');
+const activity = activities.find(a => a.id === 'usinage')!;
+const { Content } = await render(activity);
+---
+
+<ActivityLayout
+  title={activity.data.title}
+  subtitle={activity.data.subtitle}
+  description={activity.data.description}
+  accentColor={activity.data.accentColor}
+  icon={activity.data.icon}
+  capabilities={activity.data.capabilities}
+>
+  <Content />
+</ActivityLayout>

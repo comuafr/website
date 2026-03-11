@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://comua.fr/sitemap-index.xml
