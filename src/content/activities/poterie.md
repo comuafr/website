@@ -26,10 +26,12 @@ COMUA conçoit et fabrique des tours de potier professionnels, fruit de notre do
 
 ### Pourquoi choisir nos tours ?
 
-Nos tours de potier se distinguent par leur robustesse et leur fiabilité. Fabriqués dans notre atelier à partir de composants usinés en interne, ils bénéficient d'un contrôle qualité rigoureux à chaque étape de la production.
+Nos tours de potier se distinguent par leur robustesse et leur fiabilité. Fabriqués dans notre atelier à partir de composants usinés en interne (tour Ernault-Somua HN350, fraiseuse Somua Z1C), ils bénéficient d'un contrôle qualité rigoureux à chaque étape de la production.
+
+Nous jouons la transparence totale : coûts matière, heures de fabrication et [plans FreeCAD du Tour Louise](https://github.com/comuafr/Louise) sont publics.
 
 ### Notre gamme
 
 Découvrez nos modèles phares — le **Tour Louise** et le **Tour Rosa** — ainsi que notre gamme complète d'accessoires : girelles, pédales de commande, bacs de récupération et rondeaux en bois filmé.
 
-Consultez notre catalogue ci-dessous ou contactez-nous pour un conseil personnalisé.
+Chaque tour est fabriqué sur commande avec un délai d'environ un mois. Contactez-nous pour un conseil personnalisé.
