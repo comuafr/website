@@ -71,7 +71,18 @@
   "shop": {
     "title": "Tornos de alfarero",
     "description": "Fabricación artesanal francesa de tornos de alfarero profesionales y accesorios",
-    "breadcrumb": "Tienda"
+    "breadcrumb": "Tienda",
+    "made_in_france_title": "100% fabricado en Francia, con componentes locales",
+    "made_in_france_intro": "Nuestros tornos de alfarero se fabrican íntegramente en nuestro taller, con componentes lo más locales posible. No somos un revendedor: diseñamos, mecanizamos, ensamblamos y probamos cada torno nosotros mismos.",
+    "mif_wheelheads": "Platos de aluminio",
+    "mif_wheelheads_detail": "fundidos por la Fonderie de Roanne (Loira, Francia)",
+    "mif_motors": "Motorreductores",
+    "mif_motors_detail": "IMO Jeambrun, fabricante francés",
+    "mif_machined": "Piezas mecanizadas internamente",
+    "mif_machined_detail": "en nuestras máquinas francesas Ernault-Somua y Somua",
+    "mif_frames": "Estructuras de acero",
+    "mif_frames_detail": "cortadas y soldadas en nuestro taller",
+    "mif_conclusion": "Este circuito corto nos permite garantizar la calidad en cada etapa y ofrecer un verdadero servicio posventa, repuestos incluidos."
   },
   "contact": {
     "title": "Contáctenos",

@@ -13,7 +13,7 @@ const accessoires = products.filter(p => p.data.category === 'accessoires');
 
 <BaseLayout title={t('meta.shop_title', 'fr')} description={t('meta.shop_description', 'fr')} pathKey="/poterie">
   <!-- Hero -->
-  <section class="relative py-20 lg:py-32 overflow-hidden">
+  <section class="relative pt-10 pb-10 lg:pt-16 lg:pb-12 overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-b from-poterie/5 to-transparent"></div>
     <Container class="relative z-10">
       <div class="max-w-3xl">
@@ -32,6 +32,41 @@ const accessoires = products.filter(p => p.data.category === 'accessoires');
         </h1>
         <p class="text-xl lg:text-2xl text-text-secondary leading-relaxed">
           {t('shop.description', 'fr')}
+        </p>
+      </div>
+    </Container>
+  </section>
+
+  <!-- Made in France -->
+  <section class="pb-12 lg:pb-16 border-b border-border">
+    <Container>
+      <div class="max-w-4xl">
+        <h2 class="text-2xl lg:text-3xl font-bold text-text-primary mb-6" style="font-family: var(--font-heading);">
+          {t('shop.made_in_france_title', 'fr')}
+        </h2>
+        <p class="text-text-secondary text-lg leading-relaxed mb-6">
+          {t('shop.made_in_france_intro', 'fr')}
+        </p>
+        <ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 text-text-secondary">
+          <li class="flex items-start gap-3">
+            <span class="text-poterie mt-1 shrink-0">&#10003;</span>
+            <span><strong class="text-text-primary">{t('shop.mif_wheelheads', 'fr')}</strong> — {t('shop.mif_wheelheads_detail', 'fr')}</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-poterie mt-1 shrink-0">&#10003;</span>
+            <span><strong class="text-text-primary">{t('shop.mif_motors', 'fr')}</strong> — {t('shop.mif_motors_detail', 'fr')}</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-poterie mt-1 shrink-0">&#10003;</span>
+            <span><strong class="text-text-primary">{t('shop.mif_machined', 'fr')}</strong> — {t('shop.mif_machined_detail', 'fr')}</span>
+          </li>
+          <li class="flex items-start gap-3">
+            <span class="text-poterie mt-1 shrink-0">&#10003;</span>
+            <span><strong class="text-text-primary">{t('shop.mif_frames', 'fr')}</strong> — {t('shop.mif_frames_detail', 'fr')}</span>
+          </li>
+        </ul>
+        <p class="text-text-secondary mt-6 leading-relaxed">
+          {t('shop.mif_conclusion', 'fr')}
         </p>
       </div>
     </Container>

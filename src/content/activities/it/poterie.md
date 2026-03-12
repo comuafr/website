@@ -11,8 +11,8 @@ capabilities:
     description: "Torni robusti e affidabili progettati per un uso intensivo in laboratorio professionale."
   - title: "Accessori e pezzi di ricambio"
     description: "Piattelli, pedali, vasche e dischi per completare o mantenere la vostra attrezzatura."
-  - title: "Fabbricazione francese"
-    description: "Tutti i nostri torni sono progettati e fabbricati in Francia con materiali di qualita."
+  - title: "100% fabbricato in Francia"
+    description: "Progettazione, lavorazione, assemblaggio e collaudo nel nostro laboratorio. Componenti francesi: piattelli della Fonderie de Roanne, motori IMO Jeambrun."
   - title: "Consulenza personalizzata"
     description: "Assistenza nella scelta del tornio adatto alla vostra pratica e al vostro budget."
   - title: "Servizio post-vendita"
@@ -23,11 +23,22 @@ capabilities:
 
 ## I nostri torni da vasaio
 
-COMUA progetta e fabbrica torni da vasaio professionali, frutto della nostra doppia competenza nella lavorazione meccanica e nella ceramica. Ogni tornio e pensato per offrire potenza, stabilita e precisione al vasaio.
+COMUA progetta e fabbrica torni da vasaio professionali **interamente in Francia**, frutto della nostra doppia competenza nella lavorazione meccanica e nella ceramica. Ogni tornio è pensato per offrire potenza, stabilità e precisione al vasaio.
 
-### Perche scegliere i nostri torni?
+### Fabbricato in Francia, con componenti francesi
 
-I nostri torni da vasaio si distinguono per la loro robustezza e affidabilita. Fabbricati nel nostro laboratorio a partire da componenti lavorati internamente (tornio Ernault-Somua HN350, fresatrice Somua Z1C), beneficiano di un rigoroso controllo qualita in ogni fase della produzione.
+I nostri torni sono **interamente fabbricati nel nostro laboratorio** con componenti il più possibile locali:
+
+- **Piattelli** in alluminio fusi dalla [Fonderie de Roanne](https://roanne-fonderie.fr/) (Loira, Francia)
+- **Motoriduttori** IMO Jeambrun, produttore francese
+- **Pezzi lavorati** internamente sulle nostre macchine francesi (tornio Ernault-Somua HN350, fresatrice Somua Z1C)
+- **Strutture** in acciaio tagliate e saldate nel nostro laboratorio
+
+Non siamo un rivenditore: progettiamo, lavoriamo, assembliamo e testiamo ogni tornio noi stessi. Questa filiera corta ci permette di garantire la qualità in ogni fase e di offrire un vero servizio post-vendita, ricambi compresi.
+
+### Perché scegliere i nostri torni?
+
+Robustezza, affidabilità e riparabilità. I nostri torni sono costruiti per durare e per essere mantenuti: ogni pezzo è smontabile e sostituibile.
 
 Puntiamo sulla trasparenza totale: costi dei materiali, ore di fabbricazione e [disegni FreeCAD del Tour Louise](https://github.com/comuafr/Louise) sono pubblici.
 

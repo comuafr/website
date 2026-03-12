@@ -71,7 +71,18 @@
   "shop": {
     "title": "Tours de potier",
     "description": "Fabrication artisanale française de tours de potier professionnels et accessoires",
-    "breadcrumb": "Boutique"
+    "breadcrumb": "Boutique",
+    "made_in_france_title": "100% fabriqué en France, composants locaux",
+    "made_in_france_intro": "Nos tours de potier sont entièrement fabriqués dans notre atelier, avec des composants aussi locaux que possible. Nous ne sommes pas un revendeur : nous concevons, usinons, assemblons et testons chaque tour nous-mêmes.",
+    "mif_wheelheads": "Girelles en aluminium",
+    "mif_wheelheads_detail": "coulées par la Fonderie de Roanne (Loire)",
+    "mif_motors": "Moteurs-réducteurs",
+    "mif_motors_detail": "IMO Jeambrun, fabricant français",
+    "mif_machined": "Pièces usinées en interne",
+    "mif_machined_detail": "sur nos machines françaises Ernault-Somua et Somua",
+    "mif_frames": "Structures acier",
+    "mif_frames_detail": "découpées et soudées dans notre atelier",
+    "mif_conclusion": "Ce circuit court nous permet de garantir la qualité à chaque étape et de proposer un vrai service après-vente, pièces détachées comprises."
   },
   "contact": {
     "title": "Contactez-nous",

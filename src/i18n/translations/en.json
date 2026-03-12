@@ -71,7 +71,18 @@
   "shop": {
     "title": "Pottery wheels",
     "description": "French artisanal manufacturing of professional pottery wheels and accessories",
-    "breadcrumb": "Shop"
+    "breadcrumb": "Shop",
+    "made_in_france_title": "100% made in France, with local components",
+    "made_in_france_intro": "Our pottery wheels are entirely manufactured in our workshop, using components sourced as locally as possible. We are not a reseller: we design, machine, assemble and test every wheel ourselves.",
+    "mif_wheelheads": "Aluminium wheel heads",
+    "mif_wheelheads_detail": "cast by Fonderie de Roanne (Loire, France)",
+    "mif_motors": "Geared motors",
+    "mif_motors_detail": "IMO Jeambrun, French manufacturer",
+    "mif_machined": "Parts machined in-house",
+    "mif_machined_detail": "on our French Ernault-Somua and Somua machines",
+    "mif_frames": "Steel frames",
+    "mif_frames_detail": "cut and welded in our workshop",
+    "mif_conclusion": "This short supply chain lets us guarantee quality at every stage and offer genuine after-sales service, spare parts included."
   },
   "contact": {
     "title": "Contact us",

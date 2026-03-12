@@ -71,7 +71,18 @@
   "shop": {
     "title": "Töpferscheiben",
     "description": "Französische handwerkliche Fertigung professioneller Töpferscheiben und Zubehör",
-    "breadcrumb": "Shop"
+    "breadcrumb": "Shop",
+    "made_in_france_title": "100% hergestellt in Frankreich, mit lokalen Komponenten",
+    "made_in_france_intro": "Unsere Töpferscheiben werden vollständig in unserer Werkstatt gefertigt, mit möglichst lokalen Komponenten. Wir sind kein Wiederverkäufer: Wir entwerfen, zerspanen, montieren und testen jede Scheibe selbst.",
+    "mif_wheelheads": "Drehteller aus Aluminium",
+    "mif_wheelheads_detail": "gegossen von der Fonderie de Roanne (Loire, Frankreich)",
+    "mif_motors": "Getriebemotoren",
+    "mif_motors_detail": "IMO Jeambrun, französischer Hersteller",
+    "mif_machined": "Intern gefertigte Teile",
+    "mif_machined_detail": "auf unseren französischen Ernault-Somua- und Somua-Maschinen",
+    "mif_frames": "Stahlstrukturen",
+    "mif_frames_detail": "in unserer Werkstatt zugeschnitten und geschweißt",
+    "mif_conclusion": "Diese kurze Lieferkette ermöglicht es uns, Qualität in jeder Phase zu garantieren und einen echten Kundendienst anzubieten — Ersatzteile inbegriffen."
   },
   "contact": {
     "title": "Kontaktieren Sie uns",

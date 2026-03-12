@@ -11,8 +11,8 @@ capabilities:
     description: "Robust, reliable wheels designed for intensive use in a professional studio."
   - title: "Accessories and spare parts"
     description: "Wheel heads, foot pedals, splash pans and laminated-wood batts to complement or maintain your equipment."
-  - title: "Made in France"
-    description: "All our wheels are designed and manufactured in France using quality materials."
+  - title: "100% made in France"
+    description: "Design, machining, assembly and testing in our workshop. French components: wheel heads from Fonderie de Roanne, IMO Jeambrun motors."
   - title: "Personalised advice"
     description: "Guidance in choosing the wheel that best suits your practice and budget."
   - title: "After-sales service"
@@ -23,11 +23,22 @@ capabilities:
 
 ## Our pottery wheels
 
-COMUA designs and manufactures professional pottery wheels, drawing on our combined expertise in machining and ceramics. Every wheel is engineered to deliver power, stability and precision to the potter.
+COMUA designs and manufactures professional pottery wheels **entirely in France**, drawing on our combined expertise in machining and ceramics. Every wheel is engineered to deliver power, stability and precision to the potter.
+
+### Made in France, with French components
+
+Our wheels are **fully manufactured in our workshop** using components sourced as locally as possible:
+
+- **Wheel heads** in aluminium, cast by [Fonderie de Roanne](https://roanne-fonderie.fr/) (Loire, France)
+- **Geared motors** by IMO Jeambrun, a French manufacturer
+- **Machined parts** produced in-house on our French machines (Ernault-Somua HN350 lathe, Somua Z1C milling machine)
+- **Steel frames** cut and welded in our workshop
+
+We are not a reseller: we design, machine, assemble and test every wheel ourselves. This short supply chain lets us guarantee quality at every stage and offer genuine after-sales service, spare parts included.
 
 ### Why choose our wheels?
 
-Our pottery wheels stand out for their robustness and reliability. Built in our workshop from components machined in-house (Ernault-Somua HN350 lathe, Somua Z1C milling machine), they undergo rigorous quality control at every stage of production.
+Robustness, reliability and repairability. Our wheels are built to last and built to be maintained: every part is removable and replaceable.
 
 We believe in full transparency: material costs, manufacturing hours and [FreeCAD plans for the Tour Louise](https://github.com/comuafr/Louise) are all public.
 

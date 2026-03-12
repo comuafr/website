@@ -71,7 +71,18 @@
   "shop": {
     "title": "Torni da vasaio",
     "description": "Produzione artigianale francese di torni da vasaio professionali e accessori",
-    "breadcrumb": "Negozio"
+    "breadcrumb": "Negozio",
+    "made_in_france_title": "100% fabbricato in Francia, con componenti locali",
+    "made_in_france_intro": "I nostri torni da vasaio sono interamente fabbricati nel nostro laboratorio, con componenti il più possibile locali. Non siamo un rivenditore: progettiamo, lavoriamo, assembliamo e testiamo ogni tornio noi stessi.",
+    "mif_wheelheads": "Piattelli in alluminio",
+    "mif_wheelheads_detail": "fusi dalla Fonderie de Roanne (Loira, Francia)",
+    "mif_motors": "Motoriduttori",
+    "mif_motors_detail": "IMO Jeambrun, produttore francese",
+    "mif_machined": "Pezzi lavorati internamente",
+    "mif_machined_detail": "sulle nostre macchine francesi Ernault-Somua e Somua",
+    "mif_frames": "Strutture in acciaio",
+    "mif_frames_detail": "tagliate e saldate nel nostro laboratorio",
+    "mif_conclusion": "Questa filiera corta ci permette di garantire la qualità in ogni fase e di offrire un vero servizio post-vendita, ricambi compresi."
   },
   "contact": {
     "title": "Contattateci",

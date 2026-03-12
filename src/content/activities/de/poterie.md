@@ -11,8 +11,8 @@ capabilities:
     description: "Robuste und zuverlässige Scheiben, konzipiert für den intensiven Einsatz in der professionellen Werkstatt."
   - title: "Zubehör und Ersatzteile"
     description: "Aufsetzteller, Pedale, Auffangwannen und Holzscheiben zur Ergänzung oder Wartung Ihrer Ausrüstung."
-  - title: "Französische Fertigung"
-    description: "Alle unsere Töpferscheiben werden in Frankreich mit hochwertigen Materialien entworfen und hergestellt."
+  - title: "100% hergestellt in Frankreich"
+    description: "Entwurf, Zerspanung, Montage und Prüfung in unserer Werkstatt. Französische Komponenten: Drehteller von der Fonderie de Roanne, Motoren von IMO Jeambrun."
   - title: "Persönliche Beratung"
     description: "Begleitung bei der Auswahl der Töpferscheibe, die zu Ihrer Praxis und Ihrem Budget passt."
   - title: "Kundendienst"
@@ -23,11 +23,22 @@ capabilities:
 
 ## Unsere Töpferscheiben
 
-COMUA entwirft und fertigt professionelle Töpferscheiben — das Ergebnis unserer doppelten Expertise in Zerspanung und Keramik. Jede Scheibe ist darauf ausgelegt, dem Töpfer Leistung, Stabilität und Präzision zu bieten.
+COMUA entwirft und fertigt professionelle Töpferscheiben **vollständig in Frankreich** — das Ergebnis unserer doppelten Expertise in Zerspanung und Keramik. Jede Scheibe ist darauf ausgelegt, dem Töpfer Leistung, Stabilität und Präzision zu bieten.
+
+### Hergestellt in Frankreich, mit französischen Komponenten
+
+Unsere Töpferscheiben werden **vollständig in unserer Werkstatt gefertigt**, mit möglichst lokalen Komponenten:
+
+- **Drehteller** aus Aluminium, gegossen von der [Fonderie de Roanne](https://roanne-fonderie.fr/) (Loire, Frankreich)
+- **Getriebemotoren** von IMO Jeambrun, einem französischen Hersteller
+- **Zerspante Teile** intern gefertigt auf unseren französischen Maschinen (Drehmaschine Ernault-Somua HN350, Fräsmaschine Somua Z1C)
+- **Stahlstrukturen** in unserer Werkstatt zugeschnitten und geschweißt
+
+Wir sind kein Wiederverkäufer: Wir entwerfen, zerspanen, montieren und testen jede Töpferscheibe selbst. Diese kurze Lieferkette ermöglicht es uns, Qualität in jeder Phase zu garantieren und einen echten Kundendienst anzubieten — Ersatzteile inbegriffen.
 
 ### Warum unsere Töpferscheiben wählen?
 
-Unsere Töpferscheiben zeichnen sich durch ihre Robustheit und Zuverlässigkeit aus. In unserer Werkstatt aus intern gefertigten Komponenten hergestellt (Drehmaschine Ernault-Somua HN350, Fräsmaschine Somua Z1C), profitieren sie von einer strengen Qualitätskontrolle in jeder Produktionsphase.
+Robustheit, Zuverlässigkeit und Reparierbarkeit. Unsere Scheiben sind gebaut, um zu halten und um gewartet zu werden: Jedes Teil ist demontierbar und austauschbar.
 
 Wir setzen auf vollständige Transparenz: Materialkosten, Fertigungsstunden und [FreeCAD-Pläne der Louise](https://github.com/comuafr/Louise) sind öffentlich zugänglich.
 

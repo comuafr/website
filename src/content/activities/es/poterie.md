@@ -11,8 +11,8 @@ capabilities:
     description: "Tornos robustos y fiables diseñados para un uso intensivo en taller profesional."
   - title: "Accesorios y repuestos"
     description: "Platos, pedales, cubetas y discos para completar o mantener su equipamiento."
-  - title: "Fabricación francesa"
-    description: "Todos nuestros tornos están diseñados y fabricados en Francia con materiales de calidad."
+  - title: "100% fabricado en Francia"
+    description: "Diseño, mecanizado, montaje y pruebas en nuestro taller. Componentes franceses: platos de la Fonderie de Roanne, motores IMO Jeambrun."
   - title: "Asesoramiento personalizado"
     description: "Acompañamiento en la elección del torno adaptado a su práctica y su presupuesto."
   - title: "Servicio posventa"
@@ -23,11 +23,22 @@ capabilities:
 
 ## Nuestros tornos de alfarero
 
-COMUA diseña y fabrica tornos de alfarero profesionales, fruto de nuestra doble experiencia en mecanizado y cerámica. Cada torno está pensado para ofrecer potencia, estabilidad y precisión al alfarero.
+COMUA diseña y fabrica tornos de alfarero profesionales **íntegramente en Francia**, fruto de nuestra doble experiencia en mecanizado y cerámica. Cada torno está pensado para ofrecer potencia, estabilidad y precisión al alfarero.
+
+### Fabricado en Francia, con componentes franceses
+
+Nuestros tornos se **fabrican íntegramente en nuestro taller** con componentes lo más locales posible:
+
+- **Platos** de aluminio fundidos por la [Fonderie de Roanne](https://roanne-fonderie.fr/) (Loira, Francia)
+- **Motorreductores** IMO Jeambrun, fabricante francés
+- **Piezas mecanizadas** internamente en nuestras máquinas francesas (torno Ernault-Somua HN350, fresadora Somua Z1C)
+- **Estructuras** de acero cortadas y soldadas en nuestro taller
+
+No somos un revendedor: diseñamos, mecanizamos, ensamblamos y probamos cada torno nosotros mismos. Este circuito corto nos permite garantizar la calidad en cada etapa y ofrecer un verdadero servicio posventa, repuestos incluidos.
 
 ### ¿Por qué elegir nuestros tornos?
 
-Nuestros tornos de alfarero se distinguen por su robustez y fiabilidad. Fabricados en nuestro taller a partir de componentes mecanizados internamente (torno Ernault-Somua HN350, fresadora Somua Z1C), se benefician de un riguroso control de calidad en cada etapa de la producción.
+Robustez, fiabilidad y reparabilidad. Nuestros tornos están diseñados para durar y para ser mantenidos: cada pieza es desmontable y reemplazable.
 
 Apostamos por la transparencia total: costes de materiales, horas de fabricación y [planos FreeCAD del Torno Louise](https://github.com/comuafr/Louise) son públicos.
 
