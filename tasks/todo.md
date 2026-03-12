@@ -45,12 +45,24 @@
 - [x] Performance: deferred Snipcart CSS/JS, font preloading, image dimensions
 - [x] Netlify config (netlify.toml: headers, cache, Node version)
 
-## Remaining (need owner input)
-- [ ] Replace `YOUR_SNIPCART_API_KEY` in src/layouts/BaseLayout.astro
-- [ ] Add physical address to /contact page
-- [ ] Replace placeholder product images with real photos
-- [ ] Connect GitHub repo to Netlify
-- [ ] DNS setup: point comua.fr to Netlify
+## Completed (owner input)
+- [x] Snipcart API key configured in BaseLayout.astro
+- [x] Physical address added (2 route du Burgaud, 82600 Aucamville)
+- [x] Real product images fetched from comua.fr
+- [x] Real logo fetched from comua.fr
+- [x] Usinage page updated with real equipment (Ernault-Somua HN350, Somua Z1C)
+- [x] Soudure page updated (no aluminium, rouleuse Bombled 1000x3mm)
+- [x] Ingénierie page updated with CV profile + AI agents
+- [x] Tour Louise enriched with full specs, plans GitHub, Roanne Fonderie
+- [x] Tour Rosa enriched with full specs + integrated seat
+- [x] Product weights added for Snipcart shipping
+- [x] Email/phone obfuscated against bots
+- [x] Favicon replaced with real COMUA logo
+
+## Remaining
+- [ ] Deploy to production VPS (comua.fr)
+- [ ] Switch Snipcart from test to live mode
+- [ ] Contact form backend on VPS
 
 ## Build Status
 - 15 pages + sitemap built in 1.90s
