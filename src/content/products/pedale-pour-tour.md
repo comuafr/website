@@ -8,6 +8,7 @@ specs:
   Type: "Pédale de commande"
   Signal: "Potentiomètre 0–10V"
   Compatibilité: "Tours COMUA et la plupart des tours du marché"
+weight: 500
 inStock: true
 order: 4
 ---

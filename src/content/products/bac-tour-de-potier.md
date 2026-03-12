@@ -10,6 +10,7 @@ specs:
   Diamètre: "Ø398 mm"
   Hauteur: "100 mm"
   Fonction: "Collecte eau et barbotine"
+weight: 200
 inStock: true
 order: 5
 ---

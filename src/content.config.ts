@@ -26,6 +26,7 @@ const products = defineCollection({
     image: z.string(),
     description: z.string(),
     specs: z.record(z.string(), z.string()).optional(),
+    weight: z.number().optional(),
     inStock: z.boolean().default(true),
     order: z.number().default(0),
   }),

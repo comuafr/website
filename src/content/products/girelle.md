@@ -8,6 +8,7 @@ specs:
   Type: "Girelle"
   Matériau: "Aluminium usiné"
   Compatibilité: "Tours COMUA et Shimpo"
+weight: 1000
 inStock: true
 order: 3
 ---

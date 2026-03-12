@@ -8,6 +8,7 @@ specs:
   Type: "Rondeau"
   Matériau: "Bois filmé"
   Fonction: "Support de pièce amovible"
+weight: 500
 inStock: true
 order: 6
 ---

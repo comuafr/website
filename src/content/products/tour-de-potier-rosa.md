@@ -15,6 +15,7 @@ specs:
   Siège: "Structure acier mécano-soudé, assise bois verni"
   Compatibilité: "Shimpo"
   Fabrication: "France — sur commande"
+weight: 45000
 inStock: true
 order: 2
 ---

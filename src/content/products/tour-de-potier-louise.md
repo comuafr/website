@@ -15,6 +15,7 @@ specs:
   Rotation: "Réversible"
   Compatibilité: "Shimpo"
   Fabrication: "France — sur commande"
+weight: 35000
 inStock: true
 order: 1
 ---
