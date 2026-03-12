@@ -2,6 +2,52 @@
   command = "npm run build"
   publish = "dist"
 
+# Redirects from old WordPress URLs
+[[redirects]]
+  from = "/produit/tour-de-potier-louise/*"
+  to = "/poterie/tour-de-potier-louise/"
+  status = 301
+
+[[redirects]]
+  from = "/produit/tour-de-potier-rosa/*"
+  to = "/poterie/tour-de-potier-rosa/"
+  status = 301
+
+[[redirects]]
+  from = "/produit/girelle/*"
+  to = "/poterie/girelle/"
+  status = 301
+
+[[redirects]]
+  from = "/produit/pedale-pour-tour/*"
+  to = "/poterie/pedale-pour-tour/"
+  status = 301
+
+[[redirects]]
+  from = "/produit/bac-tour-de-potier/*"
+  to = "/poterie/bac-tour-de-potier/"
+  status = 301
+
+[[redirects]]
+  from = "/produit/rondeau-bois-filme/*"
+  to = "/poterie/rondeau-bois-filme/"
+  status = 301
+
+[[redirects]]
+  from = "/boutique/*"
+  to = "/poterie/"
+  status = 301
+
+[[redirects]]
+  from = "/accueil/*"
+  to = "/"
+  status = 301
+
+[[redirects]]
+  from = "/remboursements_retours/*"
+  to = "/politique-retours/"
+  status = 301
+
 [build.environment]
   NODE_VERSION = "22"
 
