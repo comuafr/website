@@ -1,40 +1,47 @@
 ---
 title: "Ingénierie informatique"
-subtitle: "Conseil et développement logiciel sur mesure"
-description: "Conseil en architecture logicielle, développement sur mesure, automatisation et transformation digitale pour entreprises."
+subtitle: "15 ans d'expérience, de la startup à Microsoft"
+description: "Ingénieur Polytechnique senior. Développement logiciel sur mesure, R&D compilateurs et HPC, optimisation par agents IA. Rust, C++, C#, TypeScript."
 accentColor: "#6bc5d2"
 icon: "&#128187;"
 order: 4
 capabilities:
-  - title: "Conseil en architecture"
-    description: "Audit et conception d'architectures logicielles adaptées à vos enjeux métier."
-  - title: "Développement sur mesure"
-    description: "Applications web, API, outils internes et automatisation de processus."
-  - title: "DevOps et infrastructure"
-    description: "Mise en place de pipelines CI/CD, conteneurisation et déploiement cloud."
-  - title: "Automatisation"
-    description: "Scripts, intégrations et workflows automatisés pour gagner en productivité."
+  - title: "Développement logiciel"
+    description: "Applications web, API, systèmes distribués et outils internes en Rust, C++, C#, CUDA et TypeScript."
+  - title: "Architecture et conseil"
+    description: "Audit, conception d'architectures logicielles et études stratégiques adaptées à vos enjeux métier."
+  - title: "R&D — Compilateurs et HPC"
+    description: "Expertise en développement de compilateurs (C#→CUDA, C++→MSIL) et calcul haute performance."
+  - title: "Agents IA et optimisation des coûts"
+    description: "Maîtrise des agents IA pour accélérer le développement et réduire significativement les coûts de réalisation."
+  - title: "Systèmes distribués"
+    description: "Conception et développement de systèmes massivement distribués (microservices, crawlers, pipelines de données)."
   - title: "Formation et accompagnement"
     description: "Transfert de compétences et accompagnement de vos équipes techniques."
-  - title: "Audit et optimisation"
-    description: "Analyse de performances, sécurité et recommandations d'amélioration."
 ---
 
-## Notre expertise en ingénierie informatique
+## Ingénieur Polytechnique, 15 ans d'expérience
 
-COMUA accompagne les entreprises dans leurs projets informatiques, du conseil stratégique à la réalisation technique. Notre approche pragmatique privilégie des solutions simples, maintenables et adaptées à votre contexte.
+COMUA est fondée et dirigée par Régis Portalez, ingénieur diplômé de l'École Polytechnique avec un Master 2 de Mathématiques (Orsay). 15 ans d'expérience dans des structures variées : Microsoft, Qwant, Altimesh et startups.
+
+### Parcours
+
+- **Microsoft** — Bibliothèque de cryptographie JavaScript, applications web Xbox (TypeScript & Asp.Net)
+- **Altimesh** — Compilateur C# (MSIL) → CUDA, compilateur C++ → MSIL, direction générale
+- **Qwant** — Crawler massivement distribué en microservices Rust
+- **COMUA** — Conseil aux entreprises, R&D informatique (compilateurs et HPC)
+
+### Langages et technologies
+
+Rust, C++, C#, CUDA, TypeScript — nous choisissons l'outil le plus adapté à votre problème, pas la technologie à la mode.
+
+### Agents IA au service de vos projets
+
+Nous maîtrisons l'utilisation d'agents IA pour optimiser les coûts de développement. Ces outils permettent d'accélérer la réalisation tout en maintenant un haut niveau de qualité, rendant accessibles des projets ambitieux à des budgets maîtrisés.
 
 ### Notre approche
 
-Nous croyons en des solutions techniques élégantes et proportionnées. Pas de sur-ingénierie, pas de technologies à la mode pour le plaisir : nous choisissons les outils les plus adaptés à votre problème.
-
-### Domaines d'intervention
-
-- **Applications web** — Sites vitrines, plateformes métier, e-commerce
-- **API et intégrations** — Connexion de vos systèmes et services tiers
-- **Automatisation** — Réduction des tâches manuelles répétitives
-- **Infrastructure** — Déploiement, monitoring, sécurité
-- **Data** — Collecte, traitement et visualisation de données
+Des solutions techniques élégantes et proportionnées. Pas de sur-ingénierie : le bon outil, la bonne architecture, au juste coût.
 
 ### Pour qui ?
 
