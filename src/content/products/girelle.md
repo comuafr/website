@@ -2,7 +2,7 @@
 name: "Girelle"
 price: 109
 category: "accessoires"
-image: "/images/products/girelle.svg"
+image: "/images/products/girelle.jpg"
 description: "Girelle de rechange pour tours de potier COMUA. Aluminium usiné, surface plane et équilibrée."
 specs:
   Type: "Girelle"

@@ -2,7 +2,7 @@
 name: "Tour de potier Rosa"
 price: 1793
 category: "tours"
-image: "/images/products/tour-rosa.svg"
+image: "/images/products/tour-rosa.png"
 description: "Tour de potier haut de gamme Rosa. Notre modèle premium pour les professionnels les plus exigeants."
 specs:
   Type: "Tour de potier électrique"

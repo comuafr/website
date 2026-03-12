@@ -2,7 +2,7 @@
 name: "Bac tour de potier"
 price: 50
 category: "accessoires"
-image: "/images/products/bac.svg"
+image: "/images/products/bac.jpg"
 description: "Bac de récupération pour tour de potier. Collecte l'eau et la barbotine pendant le tournage."
 specs:
   Type: "Bac de récupération"

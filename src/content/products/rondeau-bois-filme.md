@@ -2,7 +2,7 @@
 name: "Rondeau Bois Filmé"
 price: 12
 category: "accessoires"
-image: "/images/products/rondeau.svg"
+image: "/images/products/rondeau.jpg"
 description: "Rondeau en bois filmé pour tour de potier. Support de pièce amovible et réutilisable."
 specs:
   Type: "Rondeau"

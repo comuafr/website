@@ -2,7 +2,7 @@
 name: "Tour de potier Louise"
 price: 1569
 category: "tours"
-image: "/images/products/tour-louise.svg"
+image: "/images/products/tour-louise.png"
 description: "Tour de potier professionnel Louise. Robuste et fiable, conçu pour un usage intensif en atelier."
 specs:
   Type: "Tour de potier électrique"

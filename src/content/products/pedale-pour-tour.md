@@ -2,7 +2,7 @@
 name: "Pédale pour tour"
 price: 79
 category: "accessoires"
-image: "/images/products/pedale.svg"
+image: "/images/products/pedale.jpg"
 description: "Pédale de commande pour tour de potier. Contrôle progressif de la vitesse de rotation."
 specs:
   Type: "Pédale de commande"
