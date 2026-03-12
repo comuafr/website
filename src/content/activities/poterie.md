@@ -3,7 +3,7 @@ title: "Tours de potier"
 subtitle: "Fabrication artisanale française de tours de potier"
 description: "Conception, fabrication et vente de tours de potier professionnels et accessoires. Qualité artisanale française."
 accentColor: "#cd853f"
-icon: "&#127860;"
+icon: '<svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 9h18c0 5.523-4.029 10-9 10S3 14.523 3 9z" /><path stroke-linecap="round" stroke-linejoin="round" d="M7 20h10" /></svg>'
 order: 3
 capabilities:
   - title: "Tours de potier professionnels"
