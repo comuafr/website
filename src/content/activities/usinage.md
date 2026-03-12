@@ -22,7 +22,7 @@ capabilities:
 
 ## Notre expertise en usinage
 
-Chez COMUA, l'usinage repose sur un savoir-faire traditionnel et des machines conventionnelles éprouvées. Pas de commande numérique : c'est la main et l'oeil de l'usineur qui garantissent la précision de chaque pièce, au centième de millimètre.
+Chez COMUA, l'usinage repose sur des machines conventionnelles éprouvées, sans commande numérique. Précision au centième de millimètre en 2 ou 3 axes.
 
 ### Notre équipement
 
