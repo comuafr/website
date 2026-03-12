@@ -7,12 +7,12 @@ description: "Girelle de rechange pour tours de potier COMUA. Aluminium usiné, 
 specs:
   Type: "Girelle"
   Matériau: "Aluminium usiné"
-  Compatibilité: "Tours COMUA"
+  Compatibilité: "Tours COMUA et Shimpo"
 inStock: true
 order: 3
 ---
 
-La **Girelle** COMUA est usinée en aluminium dans notre atelier pour garantir une surface parfaitement plane et un équilibrage optimal. Compatible avec nos tours de potier Louise et Rosa.
+La **Girelle** COMUA est usinée en aluminium dans notre atelier pour garantir une surface parfaitement plane et un équilibrage optimal. Compatible avec nos tours de potier Louise et Rosa ainsi qu'avec les tours Shimpo.
 
 ### Options gratuites
 
