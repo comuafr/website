@@ -108,6 +108,11 @@
     "follow_us": "Seguici",
     "do_not_fill": "Non compilare"
   },
+  "thanks": {
+    "title": "Messaggio inviato!",
+    "subtitle": "Grazie per averci contattato. Vi risponderemo il prima possibile.",
+    "back_home": "Torna alla homepage"
+  },
   "legal": {
     "title": "Note legali",
     "meta_description": "Note legali del sito comua.fr",
