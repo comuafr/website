@@ -1,4 +1,5 @@
 ---
+locale: "fr"
 title: "Soudure"
 subtitle: "Assemblages solides et finitions soignées"
 description: "Soudure TIG, MIG/MAG et à l'arc sur acier et inox. Travaux de chaudronnerie, assemblages structurels et réparation."

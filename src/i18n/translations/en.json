@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "home": "Home",
+    "machining": "Machining",
+    "welding": "Welding",
+    "pottery": "Pottery",
+    "engineering": "Engineering",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "\"The two sources from which all wealth springs are the land and the workers\"",
+    "subtitle": "Machining \u2022 Welding \u2022 Pottery wheels \u2022 Software engineering",
+    "cta_discover": "Discover our services",
+    "cta_contact": "Contact us"
+  },
+  "activities": {
+    "section_title": "Our services",
+    "section_subtitle": "Four areas of expertise at the service of your project",
+    "learn_more": "Learn more",
+    "capabilities": "Our capabilities",
+    "machining": {
+      "title": "Machining",
+      "description": "Precision conventional machining to 1/100 mm. Turning and milling on traditional machines for one-off parts and small production runs."
+    },
+    "welding": {
+      "title": "Welding",
+      "description": "TIG, MIG/MAG and arc welding on steel and stainless steel. Boilermaking, structural assemblies and quality finishes."
+    },
+    "pottery": {
+      "title": "Pottery wheels",
+      "description": "Design and sale of professional pottery wheels and accessories. French artisanal manufacturing."
+    },
+    "engineering": {
+      "title": "Software engineering",
+      "description": "Senior Polytechnique engineer with 15 years of experience. Custom development, R&D and AI agents to optimize your costs."
+    }
+  },
+  "quote": {
+    "tagline": "\"The two sources from which all wealth springs are the land and the workers\"",
+    "description": "At COMUA, we combine artisanal craftsmanship and technical expertise to bring your projects to life."
+  },
+  "cta": {
+    "heading": "Have a project in mind?",
+    "body": "Whether it's machining, welding, a pottery wheel or IT consulting, we're here to help.",
+    "button": "Contact us",
+    "call": "Call us"
+  },
+  "footer": {
+    "activities": "Our services",
+    "contact": "Contact",
+    "info": "Information",
+    "legal": "Legal notice",
+    "returns": "Return policy",
+    "shop": "Shop",
+    "rights": "All rights reserved.",
+    "cart": "Cart",
+    "email": "Email",
+    "phone": "Phone",
+    "linkedin": "LinkedIn"
+  },
+  "product": {
+    "add_to_cart": "Add to cart",
+    "in_stock": "In stock",
+    "unavailable": "Unavailable",
+    "specs": "Specifications",
+    "related": "Related products",
+    "incl_tax": "incl. tax",
+    "our_wheels": "Our pottery wheels",
+    "accessories": "Accessories"
+  },
+  "shop": {
+    "title": "Pottery wheels",
+    "description": "French artisanal manufacturing of professional pottery wheels and accessories",
+    "breadcrumb": "Shop"
+  },
+  "contact": {
+    "title": "Contact us",
+    "subtitle": "A question, a quote request, a project? Don't hesitate to write to us or give us a call.",
+    "name_label": "Name",
+    "email_label": "Email",
+    "subject_label": "Subject",
+    "phone_label": "Phone",
+    "message_label": "Message",
+    "submit": "Send message",
+    "required_fields": "Fields marked with * are required.",
+    "name_placeholder": "Your name",
+    "email_placeholder": "your@email.com",
+    "phone_placeholder": "+33 6 00 00 00 00",
+    "message_placeholder": "Describe your project or request...",
+    "subject_default": "Choose a subject",
+    "subject_machining": "Machining",
+    "subject_welding": "Welding",
+    "subject_pottery": "Pottery wheels / Shop",
+    "subject_engineering": "Software engineering",
+    "subject_other": "Other",
+    "address": "Address",
+    "follow_us": "Follow us",
+    "do_not_fill": "Do not fill"
+  },
+  "legal": {
+    "title": "Legal notice",
+    "meta_description": "Legal notice for the comua.fr website",
+    "editor": "Site publisher",
+    "hosting": "Hosting",
+    "hosting_text": "This website is hosted by Netlify, Inc.",
+    "ip": "Intellectual property",
+    "ip_text": "All content (text, images, logos, videos) on the comua.fr website is protected by intellectual property law. Any reproduction, representation or distribution, in whole or in part, of the content of this website is prohibited without the prior authorization of COMUA.",
+    "data": "Personal data",
+    "data_text": "The information collected through the contact form is intended for COMUA and is necessary for processing your request. In accordance with the General Data Protection Regulation (GDPR), you have the right to access, rectify and delete your personal data. To exercise this right, contact us by",
+    "cookies": "Cookies",
+    "cookies_text": "This website uses technical cookies necessary for its proper functioning. No advertising or tracking cookies are used.",
+    "liability": "Liability",
+    "liability_text": "COMUA strives to ensure the accuracy of the information published on this website. However, COMUA cannot guarantee the accuracy, completeness and timeliness of the information and disclaims all liability for any errors or omissions."
+  },
+  "returns": {
+    "title": "Refund and return policy",
+    "meta_description": "Refund and return policy for products purchased on comua.fr",
+    "withdrawal": "Right of withdrawal",
+    "withdrawal_text": "In accordance with Article L221-18 of the French Consumer Code, you have <strong>14 days</strong> from the receipt of your order to exercise your right of withdrawal, without having to provide a reason or pay a penalty.",
+    "conditions": "Return conditions",
+    "conditions_intro": "To be accepted, the return must meet the following conditions:",
+    "condition_1": "The product must be returned in its original packaging, in perfect condition",
+    "condition_2": "The product must not have been used, modified or damaged",
+    "condition_3": "The return request must be sent by email within the 14-day period",
+    "procedure": "Return procedure",
+    "procedure_1": "Contact us by email with your order number",
+    "procedure_2": "We will confirm the return procedure and shipping address",
+    "procedure_3": "Ship the product at your expense, by registered mail with acknowledgment of receipt",
+    "procedure_4": "The refund will be issued within 14 days of receiving the returned product",
+    "refund": "Refund",
+    "refund_text": "The refund will be issued using the same payment method used for the order. Return shipping costs are the responsibility of the customer.",
+    "defective": "Defective products",
+    "defective_text": "If you receive a defective or damaged product during shipping, contact us within <strong>48 hours</strong> of receipt. We will cover the return and replacement of the product.",
+    "contact": "Contact",
+    "contact_text": "For any questions regarding a return or refund, contact us:"
+  },
+  "error404": {
+    "title": "Page not found",
+    "description": "The page you are looking for does not exist or has been moved.",
+    "back_home": "Back to home",
+    "contact_us": "Contact us"
+  },
+  "a11y": {
+    "skip_to_content": "Skip to main content",
+    "cart": "Cart",
+    "open_menu": "Open menu",
+    "close_menu": "Close menu",
+    "main_nav": "Main navigation",
+    "mobile_nav": "Mobile navigation",
+    "breadcrumb": "Breadcrumb",
+    "open_cart": "Open cart"
+  },
+  "meta": {
+    "default_description": "COMUA — Machining, Welding, Pottery wheels, Software engineering",
+    "home_title": "COMUA — Machining, Welding, Pottery, Engineering",
+    "contact_title": "Contact — COMUA",
+    "contact_description": "Contact COMUA for your machining, welding, pottery wheel or software engineering projects.",
+    "shop_title": "Pottery wheels and accessories — COMUA",
+    "shop_description": "Discover our professional pottery wheels made in France and our accessories: bat pins, pedals, splash pans and wheelheads.",
+    "error404_title": "Page not found — COMUA"
+  }
+}

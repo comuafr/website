@@ -1,13 +1,18 @@
 ---
 import Button from './ui/Button.astro';
+import { t, localePath, getLocale, type Locale } from '../i18n';
+
+interface Props {
+  locale?: Locale;
+}
+
+const locale = Astro.props.locale || getLocale(Astro);
 ---
 
 <section aria-labelledby="hero-title" class="relative min-h-[85vh] flex items-center justify-center overflow-hidden">
   <!-- Background pattern -->
   <div class="absolute inset-0 bg-bg-primary">
-    <!-- Diagonal grid pattern -->
     <div class="absolute inset-0 opacity-5" style="background-image: linear-gradient(30deg, #e0544d 12%, transparent 12.5%, transparent 87%, #e0544d 87.5%, #e0544d), linear-gradient(150deg, #e0544d 12%, transparent 12.5%, transparent 87%, #e0544d 87.5%, #e0544d); background-size: 60px 100px;"></div>
-    <!-- Gradient overlay -->
     <div class="absolute inset-0 bg-gradient-to-b from-bg-primary via-transparent to-bg-primary"></div>
   </div>
 
@@ -20,41 +25,33 @@ import Button from './ui/Button.astro';
   </div>
 
   <div class="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 text-center">
-    <!-- Logo -->
     <div class="mb-8 flex justify-center">
       <img src="/images/logo.png" alt="COMUA" class="w-20 h-20 lg:w-24 lg:h-24 drop-shadow-[0_0_30px_rgba(224,84,77,0.3)]" />
     </div>
 
-    <!-- Title -->
     <h1 id="hero-title" class="text-4xl sm:text-5xl lg:text-7xl font-extrabold font-[family-name:var(--font-heading)] text-text-primary mb-6 tracking-tight">
       <span class="text-primary">C</span>OMUA
     </h1>
 
-    <!-- Tagline -->
     <p class="text-lg sm:text-xl lg:text-2xl text-text-secondary max-w-2xl mx-auto mb-4 italic leading-relaxed">
-      "Les deux sources dont jaillissent toute richesse sont la terre et les travailleurs"
+      {t('hero.tagline', locale)}
     </p>
 
-    <!-- Subtitle -->
-    <p class="text-base sm:text-lg text-text-secondary max-w-xl mx-auto mb-10">
-      Usinage &bull; Soudure &bull; Tours de potier &bull; Ingénierie informatique
-    </p>
+    <p class="text-base sm:text-lg text-text-secondary max-w-xl mx-auto mb-10" set:html={t('hero.subtitle', locale)} />
 
-    <!-- CTA -->
     <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
-      <Button href="#activites" size="lg" variant="secondary">
-        Découvrir nos activités
+      <Button href={`${localePath('/', locale)}#activites`} size="lg" variant="secondary">
+        {t('hero.cta_discover', locale)}
         <svg xmlns="http://www.w3.org/2000/svg" class="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
           <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7" />
         </svg>
       </Button>
-      <Button href="/contact" variant="secondary" size="lg">
-        Nous contacter
+      <Button href={localePath('/contact', locale)} variant="secondary" size="lg">
+        {t('hero.cta_contact', locale)}
       </Button>
     </div>
   </div>
 
-  <!-- Scroll indicator -->
   <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce" aria-hidden="true">
     <svg xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-text-secondary/40" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
       <path stroke-linecap="round" stroke-linejoin="round" d="M19 14l-7 7m0 0l-7-7m7 7V3" />

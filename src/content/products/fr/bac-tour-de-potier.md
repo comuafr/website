@@ -1,4 +1,5 @@
 ---
+locale: "fr"
 name: "Bac tour de potier"
 price: 50
 category: "accessoires"

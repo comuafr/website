@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "home": "Accueil",
+    "machining": "Usinage",
+    "welding": "Soudure",
+    "pottery": "Poterie",
+    "engineering": "Ingénierie",
+    "contact": "Contact"
+  },
+  "hero": {
+    "tagline": "\"Les deux sources dont jaillissent toute richesse sont la terre et les travailleurs\"",
+    "subtitle": "Usinage \u2022 Soudure \u2022 Tours de potier \u2022 Ingénierie informatique",
+    "cta_discover": "Découvrir nos activités",
+    "cta_contact": "Nous contacter"
+  },
+  "activities": {
+    "section_title": "Nos activités",
+    "section_subtitle": "Quatre domaines d'expertise au service de votre projet",
+    "learn_more": "En savoir plus",
+    "capabilities": "Nos compétences",
+    "machining": {
+      "title": "Usinage",
+      "description": "Usinage conventionnel de précision au 1/100 mm. Tournage et fraisage sur machines traditionnelles pour pièces unitaires et petites séries."
+    },
+    "welding": {
+      "title": "Soudure",
+      "description": "Soudure TIG, MIG/MAG et à l'arc sur acier et inox. Chaudronnerie, assemblages structurels et finitions soignées."
+    },
+    "pottery": {
+      "title": "Tours de potier",
+      "description": "Conception et vente de tours de potier professionnels et accessoires. Fabrication artisanale française."
+    },
+    "engineering": {
+      "title": "Ingénierie informatique",
+      "description": "Ingénieur Polytechnique senior, 15 ans d'expérience. Développement sur mesure, R&D et agents IA pour optimiser vos coûts."
+    }
+  },
+  "quote": {
+    "tagline": "\"Les deux sources dont jaillissent toute richesse sont la terre et les travailleurs\"",
+    "description": "Chez COMUA, nous conjuguons savoir-faire artisanal et expertise technique pour donner vie à vos projets."
+  },
+  "cta": {
+    "heading": "Un projet en tête ?",
+    "body": "Que ce soit pour de l'usinage, de la soudure, un tour de potier ou du conseil informatique, nous sommes à votre écoute.",
+    "button": "Contactez-nous",
+    "call": "Appelez-nous"
+  },
+  "footer": {
+    "activities": "Nos activités",
+    "contact": "Contact",
+    "info": "Informations",
+    "legal": "Mentions légales",
+    "returns": "Politique de retours",
+    "shop": "Boutique",
+    "rights": "Tous droits réservés.",
+    "cart": "Panier",
+    "email": "Email",
+    "phone": "Téléphone",
+    "linkedin": "LinkedIn"
+  },
+  "product": {
+    "add_to_cart": "Ajouter au panier",
+    "in_stock": "En stock",
+    "unavailable": "Indisponible",
+    "specs": "Caractéristiques",
+    "related": "Produits similaires",
+    "incl_tax": "TTC",
+    "our_wheels": "Nos tours de potier",
+    "accessories": "Accessoires"
+  },
+  "shop": {
+    "title": "Tours de potier",
+    "description": "Fabrication artisanale française de tours de potier professionnels et accessoires",
+    "breadcrumb": "Boutique"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "subtitle": "Une question, un devis, un projet ? N'hésitez pas à nous écrire ou à nous appeler.",
+    "name_label": "Nom",
+    "email_label": "Email",
+    "subject_label": "Sujet",
+    "phone_label": "Téléphone",
+    "message_label": "Message",
+    "submit": "Envoyer le message",
+    "required_fields": "Les champs marqués d'un * sont obligatoires.",
+    "name_placeholder": "Votre nom",
+    "email_placeholder": "votre@email.fr",
+    "phone_placeholder": "+33 6 00 00 00 00",
+    "message_placeholder": "Décrivez votre projet ou votre demande...",
+    "subject_default": "Choisissez un sujet",
+    "subject_machining": "Usinage",
+    "subject_welding": "Soudure",
+    "subject_pottery": "Tours de potier / Boutique",
+    "subject_engineering": "Ingénierie informatique",
+    "subject_other": "Autre",
+    "address": "Adresse",
+    "follow_us": "Suivez-nous",
+    "do_not_fill": "Ne pas remplir"
+  },
+  "legal": {
+    "title": "Mentions légales",
+    "meta_description": "Mentions légales du site comua.fr",
+    "editor": "Éditeur du site",
+    "hosting": "Hébergement",
+    "hosting_text": "Ce site est hébergé par Netlify, Inc.",
+    "ip": "Propriété intellectuelle",
+    "ip_text": "L'ensemble des contenus (textes, images, logos, vidéos) présents sur le site comua.fr sont protégés par le droit de la propriété intellectuelle. Toute reproduction, représentation ou diffusion, en tout ou partie, du contenu de ce site est interdite sans l'autorisation préalable de COMUA.",
+    "data": "Données personnelles",
+    "data_text": "Les informations recueillies via le formulaire de contact sont destinées à COMUA et sont nécessaires au traitement de votre demande. Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez d'un droit d'accès, de rectification et de suppression de vos données personnelles. Pour exercer ce droit, contactez-nous par",
+    "cookies": "Cookies",
+    "cookies_text": "Ce site utilise des cookies techniques nécessaires à son bon fonctionnement. Aucun cookie publicitaire ou de traçage n'est utilisé.",
+    "liability": "Responsabilité",
+    "liability_text": "COMUA s'efforce d'assurer l'exactitude des informations diffusées sur ce site. Toutefois, COMUA ne peut garantir l'exactitude, la complétude et l'actualité des informations et décline toute responsabilité pour toute erreur ou omission."
+  },
+  "returns": {
+    "title": "Politique de remboursements et de retours",
+    "meta_description": "Politique de remboursement et de retours pour les produits achetés sur comua.fr",
+    "withdrawal": "Droit de rétractation",
+    "withdrawal_text": "Conformément à l'article L221-18 du Code de la consommation, vous disposez d'un délai de <strong>14 jours</strong> à compter de la réception de votre commande pour exercer votre droit de rétractation, sans avoir à justifier de motif ni à payer de pénalité.",
+    "conditions": "Conditions de retour",
+    "conditions_intro": "Pour être accepté, le retour doit remplir les conditions suivantes :",
+    "condition_1": "Le produit doit être retourné dans son emballage d'origine, en parfait état",
+    "condition_2": "Le produit ne doit pas avoir été utilisé, modifié ou endommagé",
+    "condition_3": "La demande de retour doit être envoyée par email dans le délai de 14 jours",
+    "procedure": "Procédure de retour",
+    "procedure_1": "Contactez-nous par email en indiquant votre numéro de commande",
+    "procedure_2": "Nous vous confirmerons la procédure de retour et l'adresse d'expédition",
+    "procedure_3": "Expédiez le produit à vos frais, en recommandé avec accusé de réception",
+    "procedure_4": "Le remboursement sera effectué dans un délai de 14 jours après réception du produit retourné",
+    "refund": "Remboursement",
+    "refund_text": "Le remboursement sera effectué sur le même moyen de paiement que celui utilisé lors de la commande. Les frais de retour restent à la charge du client.",
+    "defective": "Produits défectueux",
+    "defective_text": "Si vous recevez un produit défectueux ou endommagé lors du transport, contactez-nous dans les <strong>48 heures</strong> suivant la réception. Nous prendrons en charge le retour et le remplacement du produit.",
+    "contact": "Contact",
+    "contact_text": "Pour toute question relative à un retour ou un remboursement, contactez-nous :"
+  },
+  "error404": {
+    "title": "Page introuvable",
+    "description": "La page que vous recherchez n'existe pas ou a été déplacée.",
+    "back_home": "Retour à l'accueil",
+    "contact_us": "Nous contacter"
+  },
+  "a11y": {
+    "skip_to_content": "Aller au contenu principal",
+    "cart": "Panier",
+    "open_menu": "Ouvrir le menu",
+    "close_menu": "Fermer le menu",
+    "main_nav": "Navigation principale",
+    "mobile_nav": "Navigation mobile",
+    "breadcrumb": "Fil d'Ariane",
+    "open_cart": "Ouvrir le panier"
+  },
+  "meta": {
+    "default_description": "COMUA — Usinage, Soudure, Tours de potier, Ingénierie informatique",
+    "home_title": "COMUA — Usinage, Soudure, Poterie, Ingénierie",
+    "contact_title": "Contact — COMUA",
+    "contact_description": "Contactez COMUA pour vos projets d'usinage, soudure, tours de potier ou ingénierie informatique.",
+    "shop_title": "Tours de potier et accessoires — COMUA",
+    "shop_description": "Découvrez nos tours de potier professionnels fabriqués en France et nos accessoires : girelles, pédales, bacs et rondeaux.",
+    "error404_title": "Page introuvable — COMUA"
+  }
+}

@@ -3,7 +3,7 @@ import BaseLayout from './BaseLayout.astro';
 import Container from '../components/ui/Container.astro';
 import CapabilitiesList from '../components/CapabilitiesList.astro';
 import ContactCTA from '../components/ContactCTA.astro';
-import Button from '../components/ui/Button.astro';
+import { t, localePath, getLocale, type Locale } from '../i18n';
 
 interface Props {
   title: string;
@@ -15,23 +15,26 @@ interface Props {
     title: string;
     description: string;
   }>;
+  pathKey?: string;
+  locale?: Locale;
 }
 
-const { title, subtitle, description, accentColor, icon, capabilities } = Astro.props;
+const { title, subtitle, description, accentColor, icon, capabilities, pathKey } = Astro.props;
+const locale = Astro.props.locale || getLocale(Astro);
 ---
 
-<BaseLayout title={`${title} — COMUA`} description={description}>
+<BaseLayout title={`${title} — COMUA`} description={description} pathKey={pathKey}>
   <!-- Hero -->
   <section class="relative py-20 lg:py-32 overflow-hidden">
     <div class="absolute inset-0 bg-gradient-to-b from-[var(--accent)]/5 to-transparent" style={`--accent: ${accentColor};`}></div>
     <Container class="relative z-10">
       <div class="max-w-3xl">
-        <nav aria-label="Fil d'Ariane" class="flex items-center gap-3 mb-6">
+        <nav aria-label={t('a11y.breadcrumb', locale)} class="flex items-center gap-3 mb-6">
           <div class="w-12 h-12 rounded-lg flex items-center justify-center text-2xl" style={`background: ${accentColor}15;`}>
             <span set:html={icon} />
           </div>
           <ol class="flex items-center gap-2 text-sm">
-            <li><a href="/" class="text-text-secondary hover:text-primary transition-colors">Accueil</a></li>
+            <li><a href={localePath('/', locale)} class="text-text-secondary hover:text-primary transition-colors">{t('nav.home', locale)}</a></li>
             <li aria-hidden="true" class="text-text-secondary/40">/</li>
             <li aria-current="page" style={`color: ${accentColor};`}>{title}</li>
           </ol>
@@ -50,7 +53,7 @@ const { title, subtitle, description, accentColor, icon, capabilities } = Astro.
   <section class="py-16 lg:py-24">
     <Container>
       <h2 class="text-2xl lg:text-3xl font-bold text-text-primary mb-10" style="font-family: var(--font-heading);">
-        Nos compétences
+        {t('activities.capabilities', locale)}
       </h2>
       <CapabilitiesList capabilities={capabilities} accentColor={accentColor} />
     </Container>
@@ -71,5 +74,5 @@ const { title, subtitle, description, accentColor, icon, capabilities } = Astro.
   </section>
 
   <!-- CTA -->
-  <ContactCTA />
+  <ContactCTA locale={locale} />
 </BaseLayout>

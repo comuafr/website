@@ -2,32 +2,35 @@
 import ActivityCard from './ActivityCard.astro';
 import Container from './ui/Container.astro';
 import SectionHeading from './ui/SectionHeading.astro';
+import { t, localePath, getLocale, type Locale } from '../i18n';
+
+interface Props {
+  locale?: Locale;
+}
+
+const locale = Astro.props.locale || getLocale(Astro);
 
 const activities = [
   {
-    title: 'Usinage',
-    description: 'Usinage conventionnel de précision au 1/100 mm. Tournage et fraisage sur machines traditionnelles pour pièces unitaires et petites séries.',
+    key: 'machining',
     href: '/usinage',
     icon: '<svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M10.343 3.94c.09-.542.56-.94 1.11-.94h1.093c.55 0 1.02.398 1.11.94l.149.894c.07.424.384.764.78.93.398.164.855.142 1.205-.108l.737-.527a1.125 1.125 0 011.45.12l.773.774c.39.389.44 1.002.12 1.45l-.527.737c-.25.35-.272.806-.107 1.204.165.397.505.71.93.78l.893.15c.543.09.94.56.94 1.109v1.094c0 .55-.397 1.02-.94 1.11l-.893.149c-.425.07-.765.383-.93.78-.165.398-.143.854.107 1.204l.527.738c.32.447.269 1.06-.12 1.45l-.774.773a1.125 1.125 0 01-1.449.12l-.738-.527c-.35-.25-.806-.272-1.204-.107-.397.165-.71.505-.78.929l-.15.894c-.09.542-.56.94-1.11.94h-1.094c-.55 0-1.019-.398-1.11-.94l-.148-.894c-.071-.424-.384-.764-.781-.93-.398-.164-.854-.142-1.204.108l-.738.527c-.447.32-1.06.269-1.45-.12l-.773-.774a1.125 1.125 0 01-.12-1.45l.527-.737c.25-.35.273-.806.108-1.204-.165-.397-.506-.71-.93-.78l-.894-.15c-.542-.09-.94-.56-.94-1.109v-1.094c0-.55.398-1.02.94-1.11l.894-.149c.424-.07.765-.383.93-.78.165-.398.143-.854-.108-1.204l-.526-.738a1.125 1.125 0 01.12-1.45l.773-.773a1.125 1.125 0 011.45-.12l.737.527c.35.25.807.272 1.204.107.397-.165.71-.505.78-.929l.15-.894z" /><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z" /></svg>',
     accentColor: '#5b9bd5',
   },
   {
-    title: 'Soudure',
-    description: 'Soudure TIG, MIG/MAG et à l\'arc sur acier et inox. Chaudronnerie, assemblages structurels et finitions soignées.',
+    key: 'welding',
     href: '/soudure',
     icon: '<svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M15.362 5.214A8.252 8.252 0 0112 21 8.25 8.25 0 016.038 7.048 8.287 8.287 0 009 9.6a8.983 8.983 0 013.361-6.867 8.21 8.21 0 003 2.48z" /><path stroke-linecap="round" stroke-linejoin="round" d="M12 18a3.75 3.75 0 00.495-7.467 5.99 5.99 0 00-1.925 3.546 5.974 5.974 0 01-2.133-1.001A3.75 3.75 0 0012 18z" /></svg>',
     accentColor: '#f4a460',
   },
   {
-    title: 'Tours de potier',
-    description: 'Conception et vente de tours de potier professionnels et accessoires. Fabrication artisanale française.',
+    key: 'pottery',
     href: '/poterie',
     icon: '<svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M3 9h18c0 5.523-4.029 10-9 10S3 14.523 3 9z" /><path stroke-linecap="round" stroke-linejoin="round" d="M7 20h10" /></svg>',
     accentColor: '#cd853f',
   },
   {
-    title: 'Ingénierie informatique',
-    description: 'Ingénieur Polytechnique senior, 15 ans d\'expérience. Développement sur mesure, R&D et agents IA pour optimiser vos coûts.',
+    key: 'engineering',
     href: '/ingenierie',
     icon: '<svg xmlns="http://www.w3.org/2000/svg" class="w-7 h-7" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="1.5"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75L22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3l-4.5 16.5" /></svg>',
     accentColor: '#6bc5d2',
@@ -38,12 +41,19 @@ const activities = [
 <section id="activites" class="py-16 lg:py-24">
   <Container>
     <SectionHeading
-      title="Nos activités"
-      subtitle="Quatre domaines d'expertise au service de votre projet"
+      title={t('activities.section_title', locale)}
+      subtitle={t('activities.section_subtitle', locale)}
     />
     <div class="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
       {activities.map(activity => (
-        <ActivityCard {...activity} />
+        <ActivityCard
+          title={t(`activities.${activity.key}.title`, locale)}
+          description={t(`activities.${activity.key}.description`, locale)}
+          href={localePath(activity.href, locale)}
+          icon={activity.icon}
+          accentColor={activity.accentColor}
+          locale={locale}
+        />
       ))}
     </div>
   </Container>

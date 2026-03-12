@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "home": "Inicio",
+    "machining": "Mecanizado",
+    "welding": "Soldadura",
+    "pottery": "Alfarería",
+    "engineering": "Ingeniería",
+    "contact": "Contacto"
+  },
+  "hero": {
+    "tagline": "\"Las dos fuentes de las que brota toda riqueza son la tierra y los trabajadores\"",
+    "subtitle": "Mecanizado \u2022 Soldadura \u2022 Tornos de alfarero \u2022 Ingeniería informática",
+    "cta_discover": "Descubrir nuestras actividades",
+    "cta_contact": "Contáctenos"
+  },
+  "activities": {
+    "section_title": "Nuestras actividades",
+    "section_subtitle": "Cuatro áreas de especialización al servicio de su proyecto",
+    "learn_more": "Más información",
+    "capabilities": "Nuestras competencias",
+    "machining": {
+      "title": "Mecanizado",
+      "description": "Mecanizado convencional de precisión al 1/100 mm. Torneado y fresado en máquinas tradicionales para piezas unitarias y pequeñas series."
+    },
+    "welding": {
+      "title": "Soldadura",
+      "description": "Soldadura TIG, MIG/MAG y por arco en acero e inoxidable. Calderería, ensamblajes estructurales y acabados cuidados."
+    },
+    "pottery": {
+      "title": "Tornos de alfarero",
+      "description": "Diseño y venta de tornos de alfarero profesionales y accesorios. Fabricación artesanal francesa."
+    },
+    "engineering": {
+      "title": "Ingeniería informática",
+      "description": "Ingeniero Politécnico sénior, 15 años de experiencia. Desarrollo a medida, I+D y agentes de IA para optimizar sus costes."
+    }
+  },
+  "quote": {
+    "tagline": "\"Las dos fuentes de las que brota toda riqueza son la tierra y los trabajadores\"",
+    "description": "En COMUA, combinamos el saber hacer artesanal y la experiencia técnica para dar vida a sus proyectos."
+  },
+  "cta": {
+    "heading": "¿Tiene un proyecto en mente?",
+    "body": "Ya sea para mecanizado, soldadura, un torno de alfarero o consultoría informática, estamos a su disposición.",
+    "button": "Contáctenos",
+    "call": "Llámenos"
+  },
+  "footer": {
+    "activities": "Nuestras actividades",
+    "contact": "Contacto",
+    "info": "Información",
+    "legal": "Aviso legal",
+    "returns": "Política de devoluciones",
+    "shop": "Tienda",
+    "rights": "Todos los derechos reservados.",
+    "cart": "Carrito",
+    "email": "Correo electrónico",
+    "phone": "Teléfono",
+    "linkedin": "LinkedIn"
+  },
+  "product": {
+    "add_to_cart": "Añadir al carrito",
+    "in_stock": "En stock",
+    "unavailable": "No disponible",
+    "specs": "Características",
+    "related": "Productos similares",
+    "incl_tax": "IVA incluido",
+    "our_wheels": "Nuestros tornos de alfarero",
+    "accessories": "Accesorios"
+  },
+  "shop": {
+    "title": "Tornos de alfarero",
+    "description": "Fabricación artesanal francesa de tornos de alfarero profesionales y accesorios",
+    "breadcrumb": "Tienda"
+  },
+  "contact": {
+    "title": "Contáctenos",
+    "subtitle": "¿Una pregunta, un presupuesto, un proyecto? No dude en escribirnos o llamarnos.",
+    "name_label": "Nombre",
+    "email_label": "Correo electrónico",
+    "subject_label": "Asunto",
+    "phone_label": "Teléfono",
+    "message_label": "Mensaje",
+    "submit": "Enviar el mensaje",
+    "required_fields": "Los campos marcados con * son obligatorios.",
+    "name_placeholder": "Su nombre",
+    "email_placeholder": "su@email.es",
+    "phone_placeholder": "+34 600 000 000",
+    "message_placeholder": "Describa su proyecto o su solicitud...",
+    "subject_default": "Elija un asunto",
+    "subject_machining": "Mecanizado",
+    "subject_welding": "Soldadura",
+    "subject_pottery": "Tornos de alfarero / Tienda",
+    "subject_engineering": "Ingeniería informática",
+    "subject_other": "Otro",
+    "address": "Dirección",
+    "follow_us": "Síganos",
+    "do_not_fill": "No rellenar"
+  },
+  "legal": {
+    "title": "Aviso legal",
+    "meta_description": "Aviso legal del sitio comua.fr",
+    "editor": "Editor del sitio",
+    "hosting": "Alojamiento",
+    "hosting_text": "Este sitio está alojado por Netlify, Inc.",
+    "ip": "Propiedad intelectual",
+    "ip_text": "Todos los contenidos (textos, imágenes, logotipos, vídeos) presentes en el sitio comua.fr están protegidos por el derecho de propiedad intelectual. Queda prohibida cualquier reproducción, representación o difusión, total o parcial, del contenido de este sitio sin la autorización previa de COMUA.",
+    "data": "Datos personales",
+    "data_text": "La información recopilada a través del formulario de contacto está destinada a COMUA y es necesaria para el tratamiento de su solicitud. De conformidad con el Reglamento General de Protección de Datos (RGPD), usted dispone de un derecho de acceso, rectificación y supresión de sus datos personales. Para ejercer este derecho, contáctenos por",
+    "cookies": "Cookies",
+    "cookies_text": "Este sitio utiliza cookies técnicas necesarias para su correcto funcionamiento. No se utilizan cookies publicitarias ni de seguimiento.",
+    "liability": "Responsabilidad",
+    "liability_text": "COMUA se esfuerza por garantizar la exactitud de la información publicada en este sitio. Sin embargo, COMUA no puede garantizar la exactitud, la integridad y la actualidad de la información y declina toda responsabilidad por cualquier error u omisión."
+  },
+  "returns": {
+    "title": "Política de reembolsos y devoluciones",
+    "meta_description": "Política de reembolso y devoluciones para los productos comprados en comua.fr",
+    "withdrawal": "Derecho de desistimiento",
+    "withdrawal_text": "De conformidad con el artículo L221-18 del Código de Consumo, usted dispone de un plazo de <strong>14 días</strong> a partir de la recepción de su pedido para ejercer su derecho de desistimiento, sin necesidad de justificar motivo ni pagar penalización alguna.",
+    "conditions": "Condiciones de devolución",
+    "conditions_intro": "Para ser aceptada, la devolución debe cumplir las siguientes condiciones:",
+    "condition_1": "El producto debe devolverse en su embalaje original, en perfecto estado",
+    "condition_2": "El producto no debe haber sido utilizado, modificado ni dañado",
+    "condition_3": "La solicitud de devolución debe enviarse por correo electrónico dentro del plazo de 14 días",
+    "procedure": "Procedimiento de devolución",
+    "procedure_1": "Contáctenos por correo electrónico indicando su número de pedido",
+    "procedure_2": "Le confirmaremos el procedimiento de devolución y la dirección de envío",
+    "procedure_3": "Envíe el producto a su cargo, por correo certificado con acuse de recibo",
+    "procedure_4": "El reembolso se efectuará en un plazo de 14 días tras la recepción del producto devuelto",
+    "refund": "Reembolso",
+    "refund_text": "El reembolso se efectuará por el mismo medio de pago utilizado en el pedido. Los gastos de devolución corren a cargo del cliente.",
+    "defective": "Productos defectuosos",
+    "defective_text": "Si recibe un producto defectuoso o dañado durante el transporte, contáctenos en las <strong>48 horas</strong> siguientes a la recepción. Nos haremos cargo de la devolución y la sustitución del producto.",
+    "contact": "Contacto",
+    "contact_text": "Para cualquier consulta relativa a una devolución o un reembolso, contáctenos:"
+  },
+  "error404": {
+    "title": "Página no encontrada",
+    "description": "La página que busca no existe o ha sido trasladada.",
+    "back_home": "Volver al inicio",
+    "contact_us": "Contáctenos"
+  },
+  "a11y": {
+    "skip_to_content": "Ir al contenido principal",
+    "cart": "Carrito",
+    "open_menu": "Abrir el menú",
+    "close_menu": "Cerrar el menú",
+    "main_nav": "Navegación principal",
+    "mobile_nav": "Navegación móvil",
+    "breadcrumb": "Migas de pan",
+    "open_cart": "Abrir el carrito"
+  },
+  "meta": {
+    "default_description": "COMUA — Mecanizado, Soldadura, Tornos de alfarero, Ingeniería informática",
+    "home_title": "COMUA — Mecanizado, Soldadura, Alfarería, Ingeniería",
+    "contact_title": "Contacto — COMUA",
+    "contact_description": "Contacte con COMUA para sus proyectos de mecanizado, soldadura, tornos de alfarero o ingeniería informática.",
+    "shop_title": "Tornos de alfarero y accesorios — COMUA",
+    "shop_description": "Descubra nuestros tornos de alfarero profesionales fabricados en Francia y nuestros accesorios: platos, pedales, cubetas y discos.",
+    "error404_title": "Página no encontrada — COMUA"
+  }
+}

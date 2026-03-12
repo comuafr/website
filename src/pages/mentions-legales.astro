@@ -1,14 +1,15 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Container from '../components/ui/Container.astro';
+import { t } from '../i18n';
 ---
 
-<BaseLayout title="Mentions légales — COMUA" description="Mentions légales du site comua.fr">
+<BaseLayout title={`${t('legal.title', 'fr')} — COMUA`} description={t('legal.meta_description', 'fr')} pathKey="/mentions-legales">
   <section class="py-20 lg:py-32">
     <Container>
       <div class="max-w-3xl mx-auto">
         <h1 class="text-3xl sm:text-4xl font-extrabold text-text-primary mb-10" style="font-family: var(--font-heading);">
-          Mentions légales
+          {t('legal.title', 'fr')}
         </h1>
 
         <div class="prose prose-invert prose-lg
@@ -18,40 +19,34 @@ import Container from '../components/ui/Container.astro';
           prose-li:text-text-secondary
           prose-a:text-primary">
 
-          <h2>Éditeur du site</h2>
+          <h2>{t('legal.editor', 'fr')}</h2>
           <p>
             <strong>COMUA</strong><br />
             2 route du Burgaud, 82600 Aucamville<br />
             Email : <a href="#" data-ob-email><span data-ob-email-text>Email</span></a><br />
-            Téléphone : <a href="#" data-ob-tel><span data-ob-tel-text>Téléphone</span></a>
+            {t('footer.phone', 'fr')} : <a href="#" data-ob-tel><span data-ob-tel-text>{t('footer.phone', 'fr')}</span></a>
           </p>
 
-          <h2>Hébergement</h2>
+          <h2>{t('legal.hosting', 'fr')}</h2>
           <p>
-            Ce site est hébergé par Netlify, Inc.<br />
+            {t('legal.hosting_text', 'fr')}<br />
             44 Montgomery Street, Suite 300<br />
             San Francisco, California 94104, USA
           </p>
 
-          <h2>Propriété intellectuelle</h2>
+          <h2>{t('legal.ip', 'fr')}</h2>
+          <p>{t('legal.ip_text', 'fr')}</p>
+
+          <h2>{t('legal.data', 'fr')}</h2>
           <p>
-            L'ensemble des contenus (textes, images, logos, vidéos) présents sur le site comua.fr sont protégés par le droit de la propriété intellectuelle. Toute reproduction, représentation ou diffusion, en tout ou partie, du contenu de ce site est interdite sans l'autorisation préalable de COMUA.
+            {t('legal.data_text', 'fr')} <a href="#" data-ob-email><span data-ob-email-text>email</span></a>.
           </p>
 
-          <h2>Données personnelles</h2>
-          <p>
-            Les informations recueillies via le formulaire de contact sont destinées à COMUA et sont nécessaires au traitement de votre demande. Conformément au Règlement Général sur la Protection des Données (RGPD), vous disposez d'un droit d'accès, de rectification et de suppression de vos données personnelles. Pour exercer ce droit, contactez-nous par <a href="#" data-ob-email><span data-ob-email-text>email</span></a>.
-          </p>
+          <h2>{t('legal.cookies', 'fr')}</h2>
+          <p>{t('legal.cookies_text', 'fr')}</p>
 
-          <h2>Cookies</h2>
-          <p>
-            Ce site utilise des cookies techniques nécessaires à son bon fonctionnement. Aucun cookie publicitaire ou de traçage n'est utilisé.
-          </p>
-
-          <h2>Responsabilité</h2>
-          <p>
-            COMUA s'efforce d'assurer l'exactitude des informations diffusées sur ce site. Toutefois, COMUA ne peut garantir l'exactitude, la complétude et l'actualité des informations et décline toute responsabilité pour toute erreur ou omission.
-          </p>
+          <h2>{t('legal.liability', 'fr')}</h2>
+          <p>{t('legal.liability_text', 'fr')}</p>
         </div>
       </div>
     </Container>

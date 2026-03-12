@@ -1,4 +1,6 @@
 ---
+import { t, localePath, getLocale, type Locale } from '../i18n';
+
 interface Props {
   name: string;
   price: number;
@@ -6,17 +8,19 @@ interface Props {
   description: string;
   slug: string;
   inStock: boolean;
+  locale?: Locale;
 }
 
 const { name, price, image, description, slug, inStock } = Astro.props;
+const locale = Astro.props.locale || getLocale(Astro);
 
-const formattedPrice = new Intl.NumberFormat('fr-FR', {
+const formattedPrice = new Intl.NumberFormat(locale === 'en' ? 'en-US' : locale === 'de' ? 'de-DE' : locale === 'es' ? 'es-ES' : locale === 'it' ? 'it-IT' : 'fr-FR', {
   style: 'currency',
   currency: 'EUR',
 }).format(price);
 ---
 
-<a href={`/poterie/${slug}`} class="group block bg-bg-secondary rounded-xl border border-border overflow-hidden hover:border-poterie hover:shadow-[0_0_30px_rgba(205,133,63,0.1)] transition-all duration-300">
+<a href={localePath(`/poterie/${slug}`, locale)} class="group block bg-bg-secondary rounded-xl border border-border overflow-hidden hover:border-poterie hover:shadow-[0_0_30px_rgba(205,133,63,0.1)] transition-all duration-300">
   <!-- Image -->
   <div class="aspect-square overflow-hidden bg-bg-elevated">
     <img
@@ -38,9 +42,9 @@ const formattedPrice = new Intl.NumberFormat('fr-FR', {
     <div class="flex items-center justify-between">
       <span class="text-xl font-bold text-primary">{formattedPrice}</span>
       {inStock ? (
-        <span class="text-xs text-green-400 bg-green-400/10 px-2 py-1 rounded-full">En stock</span>
+        <span class="text-xs text-green-400 bg-green-400/10 px-2 py-1 rounded-full">{t('product.in_stock', locale)}</span>
       ) : (
-        <span class="text-xs text-text-secondary bg-bg-elevated px-2 py-1 rounded-full">Indisponible</span>
+        <span class="text-xs text-text-secondary bg-bg-elevated px-2 py-1 rounded-full">{t('product.unavailable', locale)}</span>
       )}
     </div>
   </div>

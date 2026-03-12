@@ -1,4 +1,5 @@
 ---
+locale: "fr"
 title: "Usinage"
 subtitle: "Précision conventionnelle au centième de millimètre"
 description: "Usinage conventionnel de précision pour pièces unitaires et petites séries. Tournage et fraisage sur machines traditionnelles avec visualisation numérique, précision au 1/100 mm."

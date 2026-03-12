@@ -1,4 +1,5 @@
 ---
+locale: "fr"
 title: "Tours de potier"
 subtitle: "Fabrication artisanale française de tours de potier"
 description: "Conception, fabrication et vente de tours de potier professionnels et accessoires. Qualité artisanale française."

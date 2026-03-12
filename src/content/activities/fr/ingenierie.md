@@ -1,4 +1,5 @@
 ---
+locale: "fr"
 title: "Ingénierie informatique"
 subtitle: "15 ans d'expérience, de la startup à Microsoft"
 description: "Ingénieur Polytechnique senior. Développement logiciel sur mesure, R&D compilateurs et HPC, optimisation par agents IA. Rust, C++, C#, TypeScript."

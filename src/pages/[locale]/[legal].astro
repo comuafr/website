@@ -1,0 +1,115 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import Container from '../../components/ui/Container.astro';
+import { t, locales, routeMap, type Locale } from '../../i18n';
+
+export function getStaticPaths() {
+  const pages = ['mentions-legales', 'politique-retours'];
+  const paths: any[] = [];
+
+  for (const locale of locales.filter(l => l !== 'fr')) {
+    for (const page of pages) {
+      paths.push({
+        params: { locale, legal: routeMap[locale][page] },
+        props: { locale, page },
+      });
+    }
+  }
+
+  return paths;
+}
+
+const { locale, page } = Astro.props as { locale: Locale; page: string };
+const isLegal = page === 'mentions-legales';
+---
+
+<BaseLayout
+  title={`${isLegal ? t('legal.title', locale) : t('returns.title', locale)} — COMUA`}
+  description={isLegal ? t('legal.meta_description', locale) : t('returns.meta_description', locale)}
+  pathKey={`/${page}`}
+>
+  <section class="py-20 lg:py-32">
+    <Container>
+      <div class="max-w-3xl mx-auto">
+        <h1 class="text-3xl sm:text-4xl font-extrabold text-text-primary mb-10" style="font-family: var(--font-heading);">
+          {isLegal ? t('legal.title', locale) : t('returns.title', locale)}
+        </h1>
+
+        <div class="prose prose-invert prose-lg
+          prose-headings:font-[family-name:var(--font-heading)] prose-headings:text-text-primary
+          prose-p:text-text-secondary prose-p:leading-relaxed
+          prose-strong:text-text-primary
+          prose-li:text-text-secondary
+          prose-a:text-primary">
+
+          {isLegal ? (
+            <>
+              <h2>{t('legal.editor', locale)}</h2>
+              <p>
+                <strong>COMUA</strong><br />
+                2 route du Burgaud, 82600 Aucamville<br />
+                Email : <a href="#" data-ob-email><span data-ob-email-text>Email</span></a><br />
+                {t('footer.phone', locale)} : <a href="#" data-ob-tel><span data-ob-tel-text>{t('footer.phone', locale)}</span></a>
+              </p>
+
+              <h2>{t('legal.hosting', locale)}</h2>
+              <p>
+                {t('legal.hosting_text', locale)}<br />
+                44 Montgomery Street, Suite 300<br />
+                San Francisco, California 94104, USA
+              </p>
+
+              <h2>{t('legal.ip', locale)}</h2>
+              <p>{t('legal.ip_text', locale)}</p>
+
+              <h2>{t('legal.data', locale)}</h2>
+              <p>
+                {t('legal.data_text', locale)} <a href="#" data-ob-email><span data-ob-email-text>email</span></a>.
+              </p>
+
+              <h2>{t('legal.cookies', locale)}</h2>
+              <p>{t('legal.cookies_text', locale)}</p>
+
+              <h2>{t('legal.liability', locale)}</h2>
+              <p>{t('legal.liability_text', locale)}</p>
+            </>
+          ) : (
+            <>
+              <h2>{t('returns.withdrawal', locale)}</h2>
+              <p set:html={t('returns.withdrawal_text', locale)} />
+
+              <h2>{t('returns.conditions', locale)}</h2>
+              <p>{t('returns.conditions_intro', locale)}</p>
+              <ul>
+                <li>{t('returns.condition_1', locale)}</li>
+                <li>{t('returns.condition_2', locale)}</li>
+                <li>{t('returns.condition_3', locale)}</li>
+              </ul>
+
+              <h2>{t('returns.procedure', locale)}</h2>
+              <ol>
+                <li>{t('returns.procedure_1', locale)}</li>
+                <li>{t('returns.procedure_2', locale)}</li>
+                <li>{t('returns.procedure_3', locale)}</li>
+                <li>{t('returns.procedure_4', locale)}</li>
+              </ol>
+
+              <h2>{t('returns.refund', locale)}</h2>
+              <p>{t('returns.refund_text', locale)}</p>
+
+              <h2>{t('returns.defective', locale)}</h2>
+              <p set:html={t('returns.defective_text', locale)} />
+
+              <h2>{t('returns.contact', locale)}</h2>
+              <p>
+                {t('returns.contact_text', locale)}<br />
+                Email : <a href="#" data-ob-email><span data-ob-email-text>Email</span></a><br />
+                {t('footer.phone', locale)} : <a href="#" data-ob-tel><span data-ob-tel-text>{t('footer.phone', locale)}</span></a>
+              </p>
+            </>
+          )}
+        </div>
+      </div>
+    </Container>
+  </section>
+</BaseLayout>

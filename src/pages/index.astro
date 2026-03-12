@@ -4,9 +4,10 @@ import Hero from '../components/Hero.astro';
 import ActivityGrid from '../components/ActivityGrid.astro';
 import QuoteSection from '../components/QuoteSection.astro';
 import ContactCTA from '../components/ContactCTA.astro';
+import { t } from '../i18n';
 ---
 
-<BaseLayout title="COMUA — Usinage, Soudure, Poterie, Ingénierie">
+<BaseLayout title={t('meta.home_title', 'fr')} pathKey="/">
   <Hero />
   <ActivityGrid />
   <QuoteSection />

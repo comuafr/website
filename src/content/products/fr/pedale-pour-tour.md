@@ -1,4 +1,5 @@
 ---
+locale: "fr"
 name: "Pédale pour tour"
 price: 79
 category: "accessoires"

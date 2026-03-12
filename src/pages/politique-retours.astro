@@ -1,14 +1,15 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Container from '../components/ui/Container.astro';
+import { t } from '../i18n';
 ---
 
-<BaseLayout title="Politique de retours — COMUA" description="Politique de remboursement et de retours pour les produits achetés sur comua.fr">
+<BaseLayout title={`${t('returns.title', 'fr')} — COMUA`} description={t('returns.meta_description', 'fr')} pathKey="/politique-retours">
   <section class="py-20 lg:py-32">
     <Container>
       <div class="max-w-3xl mx-auto">
         <h1 class="text-3xl sm:text-4xl font-extrabold text-text-primary mb-10" style="font-family: var(--font-heading);">
-          Politique de remboursements et de retours
+          {t('returns.title', 'fr')}
         </h1>
 
         <div class="prose prose-invert prose-lg
@@ -18,44 +19,36 @@ import Container from '../components/ui/Container.astro';
           prose-li:text-text-secondary
           prose-a:text-primary">
 
-          <h2>Droit de rétractation</h2>
-          <p>
-            Conformément à l'article L221-18 du Code de la consommation, vous disposez d'un délai de <strong>14 jours</strong> à compter de la réception de votre commande pour exercer votre droit de rétractation, sans avoir à justifier de motif ni à payer de pénalité.
-          </p>
+          <h2>{t('returns.withdrawal', 'fr')}</h2>
+          <p set:html={t('returns.withdrawal_text', 'fr')} />
 
-          <h2>Conditions de retour</h2>
-          <p>
-            Pour être accepté, le retour doit remplir les conditions suivantes :
-          </p>
+          <h2>{t('returns.conditions', 'fr')}</h2>
+          <p>{t('returns.conditions_intro', 'fr')}</p>
           <ul>
-            <li>Le produit doit être retourné dans son emballage d'origine, en parfait état</li>
-            <li>Le produit ne doit pas avoir été utilisé, modifié ou endommagé</li>
-            <li>La demande de retour doit être envoyée par <a href="#" data-ob-email><span data-ob-email-text>email</span></a> dans le délai de 14 jours</li>
+            <li>{t('returns.condition_1', 'fr')}</li>
+            <li>{t('returns.condition_2', 'fr')}</li>
+            <li>{t('returns.condition_3', 'fr')}</li>
           </ul>
 
-          <h2>Procédure de retour</h2>
+          <h2>{t('returns.procedure', 'fr')}</h2>
           <ol>
-            <li>Contactez-nous par <a href="#" data-ob-email><span data-ob-email-text>email</span></a> en indiquant votre numéro de commande</li>
-            <li>Nous vous confirmerons la procédure de retour et l'adresse d'expédition</li>
-            <li>Expédiez le produit à vos frais, en recommandé avec accusé de réception</li>
-            <li>Le remboursement sera effectué dans un délai de 14 jours après réception du produit retourné</li>
+            <li>{t('returns.procedure_1', 'fr')}</li>
+            <li>{t('returns.procedure_2', 'fr')}</li>
+            <li>{t('returns.procedure_3', 'fr')}</li>
+            <li>{t('returns.procedure_4', 'fr')}</li>
           </ol>
 
-          <h2>Remboursement</h2>
-          <p>
-            Le remboursement sera effectué sur le même moyen de paiement que celui utilisé lors de la commande. Les frais de retour restent à la charge du client.
-          </p>
+          <h2>{t('returns.refund', 'fr')}</h2>
+          <p>{t('returns.refund_text', 'fr')}</p>
 
-          <h2>Produits défectueux</h2>
-          <p>
-            Si vous recevez un produit défectueux ou endommagé lors du transport, contactez-nous dans les <strong>48 heures</strong> suivant la réception. Nous prendrons en charge le retour et le remplacement du produit.
-          </p>
+          <h2>{t('returns.defective', 'fr')}</h2>
+          <p set:html={t('returns.defective_text', 'fr')} />
 
-          <h2>Contact</h2>
+          <h2>{t('returns.contact', 'fr')}</h2>
           <p>
-            Pour toute question relative à un retour ou un remboursement, contactez-nous :<br />
+            {t('returns.contact_text', 'fr')}<br />
             Email : <a href="#" data-ob-email><span data-ob-email-text>Email</span></a><br />
-            Téléphone : <a href="#" data-ob-tel><span data-ob-tel-text>Téléphone</span></a>
+            {t('footer.phone', 'fr')} : <a href="#" data-ob-tel><span data-ob-tel-text>{t('footer.phone', 'fr')}</span></a>
           </p>
         </div>
       </div>

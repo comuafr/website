@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "home": "Startseite",
+    "machining": "Zerspanung",
+    "welding": "Schweißen",
+    "pottery": "Töpferei",
+    "engineering": "Ingenieurwesen",
+    "contact": "Kontakt"
+  },
+  "hero": {
+    "tagline": "\"Die zwei Quellen, aus denen aller Reichtum entspringt, sind die Erde und die Arbeiter\"",
+    "subtitle": "Zerspanung \u2022 Schweißen \u2022 Töpferscheiben \u2022 Softwareentwicklung",
+    "cta_discover": "Unsere Tätigkeiten entdecken",
+    "cta_contact": "Kontaktieren Sie uns"
+  },
+  "activities": {
+    "section_title": "Unsere Tätigkeiten",
+    "section_subtitle": "Vier Fachgebiete im Dienste Ihres Projekts",
+    "learn_more": "Mehr erfahren",
+    "capabilities": "Unsere Kompetenzen",
+    "machining": {
+      "title": "Zerspanung",
+      "description": "Konventionelle Präzisionszerspanung auf 1/100 mm genau. Drehen und Fräsen auf traditionellen Maschinen für Einzelteile und Kleinserien."
+    },
+    "welding": {
+      "title": "Schweißen",
+      "description": "WIG-, MIG/MAG- und Lichtbogenschweißen auf Stahl und Edelstahl. Blechbearbeitung, Strukturmontagen und sorgfältige Endbearbeitung."
+    },
+    "pottery": {
+      "title": "Töpferscheiben",
+      "description": "Entwicklung und Verkauf professioneller Töpferscheiben und Zubehör. Französische handwerkliche Fertigung."
+    },
+    "engineering": {
+      "title": "Softwareentwicklung",
+      "description": "Senior-Ingenieur der École Polytechnique mit 15 Jahren Erfahrung. Maßgeschneiderte Entwicklung, F&E und KI-Agenten zur Optimierung Ihrer Kosten."
+    }
+  },
+  "quote": {
+    "tagline": "\"Die zwei Quellen, aus denen aller Reichtum entspringt, sind die Erde und die Arbeiter\"",
+    "description": "Bei COMUA verbinden wir handwerkliches Können mit technischer Expertise, um Ihre Projekte zum Leben zu erwecken."
+  },
+  "cta": {
+    "heading": "Ein Projekt im Kopf?",
+    "body": "Ob Zerspanung, Schweißen, Töpferscheiben oder IT-Beratung — wir sind für Sie da.",
+    "button": "Kontaktieren Sie uns",
+    "call": "Rufen Sie uns an"
+  },
+  "footer": {
+    "activities": "Unsere Tätigkeiten",
+    "contact": "Kontakt",
+    "info": "Informationen",
+    "legal": "Impressum",
+    "returns": "Rückgaberichtlinie",
+    "shop": "Shop",
+    "rights": "Alle Rechte vorbehalten.",
+    "cart": "Warenkorb",
+    "email": "E-Mail",
+    "phone": "Telefon",
+    "linkedin": "LinkedIn"
+  },
+  "product": {
+    "add_to_cart": "In den Warenkorb",
+    "in_stock": "Auf Lager",
+    "unavailable": "Nicht verfügbar",
+    "specs": "Technische Daten",
+    "related": "Ähnliche Produkte",
+    "incl_tax": "inkl. MwSt.",
+    "our_wheels": "Unsere Töpferscheiben",
+    "accessories": "Zubehör"
+  },
+  "shop": {
+    "title": "Töpferscheiben",
+    "description": "Französische handwerkliche Fertigung professioneller Töpferscheiben und Zubehör",
+    "breadcrumb": "Shop"
+  },
+  "contact": {
+    "title": "Kontaktieren Sie uns",
+    "subtitle": "Eine Frage, ein Angebot, ein Projekt? Zögern Sie nicht, uns zu schreiben oder anzurufen.",
+    "name_label": "Name",
+    "email_label": "E-Mail",
+    "subject_label": "Betreff",
+    "phone_label": "Telefon",
+    "message_label": "Nachricht",
+    "submit": "Nachricht senden",
+    "required_fields": "Mit * gekennzeichnete Felder sind Pflichtfelder.",
+    "name_placeholder": "Ihr Name",
+    "email_placeholder": "ihre@email.de",
+    "phone_placeholder": "+49 170 0000000",
+    "message_placeholder": "Beschreiben Sie Ihr Projekt oder Ihre Anfrage...",
+    "subject_default": "Wählen Sie ein Thema",
+    "subject_machining": "Zerspanung",
+    "subject_welding": "Schweißen",
+    "subject_pottery": "Töpferscheiben / Shop",
+    "subject_engineering": "Softwareentwicklung",
+    "subject_other": "Sonstiges",
+    "address": "Adresse",
+    "follow_us": "Folgen Sie uns",
+    "do_not_fill": "Nicht ausfüllen"
+  },
+  "legal": {
+    "title": "Impressum",
+    "meta_description": "Impressum der Website comua.fr",
+    "editor": "Herausgeber der Website",
+    "hosting": "Hosting",
+    "hosting_text": "Diese Website wird von Netlify, Inc. gehostet.",
+    "ip": "Geistiges Eigentum",
+    "ip_text": "Alle Inhalte (Texte, Bilder, Logos, Videos) auf der Website comua.fr sind durch das Urheberrecht geschützt. Jede Vervielfältigung, Darstellung oder Verbreitung, ganz oder teilweise, der Inhalte dieser Website ist ohne vorherige Genehmigung von COMUA untersagt.",
+    "data": "Personenbezogene Daten",
+    "data_text": "Die über das Kontaktformular erhobenen Daten sind für COMUA bestimmt und zur Bearbeitung Ihrer Anfrage erforderlich. Gemäß der Datenschutz-Grundverordnung (DSGVO) haben Sie das Recht auf Zugang, Berichtigung und Löschung Ihrer personenbezogenen Daten. Um dieses Recht auszuüben, kontaktieren Sie uns per",
+    "cookies": "Cookies",
+    "cookies_text": "Diese Website verwendet technisch notwendige Cookies für ihren ordnungsgemäßen Betrieb. Es werden keine Werbe- oder Tracking-Cookies verwendet.",
+    "liability": "Haftung",
+    "liability_text": "COMUA bemüht sich, die Richtigkeit der auf dieser Website veröffentlichten Informationen sicherzustellen. COMUA kann jedoch keine Garantie für die Richtigkeit, Vollständigkeit und Aktualität der Informationen übernehmen und lehnt jede Haftung für Fehler oder Auslassungen ab."
+  },
+  "returns": {
+    "title": "Rückgabe- und Erstattungsrichtlinie",
+    "meta_description": "Rückgabe- und Erstattungsrichtlinie für auf comua.fr gekaufte Produkte",
+    "withdrawal": "Widerrufsrecht",
+    "withdrawal_text": "Gemäß den geltenden Verbraucherschutzbestimmungen haben Sie ab Erhalt Ihrer Bestellung eine Frist von <strong>14 Tagen</strong>, um Ihr Widerrufsrecht auszuüben, ohne Angabe von Gründen und ohne Strafzahlung.",
+    "conditions": "Rückgabebedingungen",
+    "conditions_intro": "Damit eine Rückgabe akzeptiert wird, müssen folgende Bedingungen erfüllt sein:",
+    "condition_1": "Das Produkt muss in seiner Originalverpackung und in einwandfreiem Zustand zurückgesandt werden",
+    "condition_2": "Das Produkt darf nicht benutzt, verändert oder beschädigt worden sein",
+    "condition_3": "Der Rückgabeantrag muss innerhalb der 14-Tage-Frist per E-Mail gesendet werden",
+    "procedure": "Rückgabeverfahren",
+    "procedure_1": "Kontaktieren Sie uns per E-Mail unter Angabe Ihrer Bestellnummer",
+    "procedure_2": "Wir bestätigen Ihnen das Rückgabeverfahren und die Versandadresse",
+    "procedure_3": "Versenden Sie das Produkt auf Ihre Kosten per Einschreiben mit Rückschein",
+    "procedure_4": "Die Erstattung erfolgt innerhalb von 14 Tagen nach Eingang des zurückgesandten Produkts",
+    "refund": "Erstattung",
+    "refund_text": "Die Erstattung erfolgt über dasselbe Zahlungsmittel, das bei der Bestellung verwendet wurde. Die Rücksendekosten gehen zu Lasten des Kunden.",
+    "defective": "Defekte Produkte",
+    "defective_text": "Wenn Sie ein defektes oder beim Transport beschädigtes Produkt erhalten, kontaktieren Sie uns innerhalb von <strong>48 Stunden</strong> nach Erhalt. Wir übernehmen die Rücksendung und den Ersatz des Produkts.",
+    "contact": "Kontakt",
+    "contact_text": "Bei Fragen zu einer Rückgabe oder Erstattung kontaktieren Sie uns bitte:"
+  },
+  "error404": {
+    "title": "Seite nicht gefunden",
+    "description": "Die von Ihnen gesuchte Seite existiert nicht oder wurde verschoben.",
+    "back_home": "Zurück zur Startseite",
+    "contact_us": "Kontaktieren Sie uns"
+  },
+  "a11y": {
+    "skip_to_content": "Zum Hauptinhalt springen",
+    "cart": "Warenkorb",
+    "open_menu": "Menü öffnen",
+    "close_menu": "Menü schließen",
+    "main_nav": "Hauptnavigation",
+    "mobile_nav": "Mobile Navigation",
+    "breadcrumb": "Brotkrümelnavigation",
+    "open_cart": "Warenkorb öffnen"
+  },
+  "meta": {
+    "default_description": "COMUA — Zerspanung, Schweißen, Töpferscheiben, Softwareentwicklung",
+    "home_title": "COMUA — Zerspanung, Schweißen, Töpferei, Ingenieurwesen",
+    "contact_title": "Kontakt — COMUA",
+    "contact_description": "Kontaktieren Sie COMUA für Ihre Projekte in den Bereichen Zerspanung, Schweißen, Töpferscheiben oder Softwareentwicklung.",
+    "shop_title": "Töpferscheiben und Zubehör — COMUA",
+    "shop_description": "Entdecken Sie unsere in Frankreich hergestellten professionellen Töpferscheiben und unser Zubehör: Drehköpfe, Pedale, Auffangwannen und Rundscheiben.",
+    "error404_title": "Seite nicht gefunden — COMUA"
+  }
+}

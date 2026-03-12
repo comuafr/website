@@ -2,25 +2,28 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import Container from '../components/ui/Container.astro';
 import Button from '../components/ui/Button.astro';
+import { t, getLocale } from '../i18n';
+
+const locale = getLocale(Astro);
 ---
 
-<BaseLayout title="Page introuvable — COMUA">
+<BaseLayout title={t('meta.error404_title', locale)}>
   <section class="py-32 lg:py-48">
     <Container>
       <div class="text-center max-w-lg mx-auto">
         <p class="text-8xl font-extrabold text-primary mb-4" style="font-family: var(--font-heading);">404</p>
         <h1 class="text-2xl font-bold text-text-primary mb-4" style="font-family: var(--font-heading);">
-          Page introuvable
+          {t('error404.title', locale)}
         </h1>
         <p class="text-text-secondary mb-8">
-          La page que vous recherchez n'existe pas ou a été déplacée.
+          {t('error404.description', locale)}
         </p>
         <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
           <Button href="/" size="lg" variant="secondary">
-            Retour à l'accueil
+            {t('error404.back_home', locale)}
           </Button>
           <Button href="/contact" variant="secondary" size="lg">
-            Nous contacter
+            {t('error404.contact_us', locale)}
           </Button>
         </div>
       </div>

@@ -14,6 +14,8 @@ const activities = defineCollection({
       description: z.string(),
     })),
     order: z.number().default(0),
+    locale: z.string().default('fr'),
+    slug: z.string().optional(),
   }),
 });
 
@@ -29,6 +31,8 @@ const products = defineCollection({
     weight: z.number().optional(),
     inStock: z.boolean().default(true),
     order: z.number().default(0),
+    locale: z.string().default('fr'),
+    slug: z.string().optional(),
   }),
 });
 

@@ -1,0 +1,162 @@
+{
+  "nav": {
+    "home": "Home",
+    "machining": "Lavorazione meccanica",
+    "welding": "Saldatura",
+    "pottery": "Ceramica",
+    "engineering": "Ingegneria",
+    "contact": "Contatti"
+  },
+  "hero": {
+    "tagline": "\"Le due fonti da cui scaturisce ogni ricchezza sono la terra e i lavoratori\"",
+    "subtitle": "Lavorazione meccanica \u2022 Saldatura \u2022 Torni da vasaio \u2022 Ingegneria informatica",
+    "cta_discover": "Scopri le nostre attività",
+    "cta_contact": "Contattaci"
+  },
+  "activities": {
+    "section_title": "Le nostre attività",
+    "section_subtitle": "Quattro ambiti di competenza al servizio del vostro progetto",
+    "learn_more": "Scopri di più",
+    "capabilities": "Le nostre competenze",
+    "machining": {
+      "title": "Lavorazione meccanica",
+      "description": "Lavorazione meccanica convenzionale di precisione al 1/100 mm. Tornitura e fresatura su macchine tradizionali per pezzi unici e piccole serie."
+    },
+    "welding": {
+      "title": "Saldatura",
+      "description": "Saldatura TIG, MIG/MAG e ad arco su acciaio e acciaio inox. Caldareria, assemblaggi strutturali e finiture accurate."
+    },
+    "pottery": {
+      "title": "Torni da vasaio",
+      "description": "Progettazione e vendita di torni da vasaio professionali e accessori. Produzione artigianale francese."
+    },
+    "engineering": {
+      "title": "Ingegneria informatica",
+      "description": "Ingegnere Politecnico senior, 15 anni di esperienza. Sviluppo su misura, R&D e agenti IA per ottimizzare i vostri costi."
+    }
+  },
+  "quote": {
+    "tagline": "\"Le due fonti da cui scaturisce ogni ricchezza sono la terra e i lavoratori\"",
+    "description": "In COMUA, uniamo sapere artigianale e competenza tecnica per dare vita ai vostri progetti."
+  },
+  "cta": {
+    "heading": "Avete un progetto in mente?",
+    "body": "Che si tratti di lavorazione meccanica, saldatura, un tornio da vasaio o consulenza informatica, siamo a vostra disposizione.",
+    "button": "Contattateci",
+    "call": "Chiamateci"
+  },
+  "footer": {
+    "activities": "Le nostre attività",
+    "contact": "Contatti",
+    "info": "Informazioni",
+    "legal": "Note legali",
+    "returns": "Politica dei resi",
+    "shop": "Negozio",
+    "rights": "Tutti i diritti riservati.",
+    "cart": "Carrello",
+    "email": "Email",
+    "phone": "Telefono",
+    "linkedin": "LinkedIn"
+  },
+  "product": {
+    "add_to_cart": "Aggiungi al carrello",
+    "in_stock": "Disponibile",
+    "unavailable": "Non disponibile",
+    "specs": "Caratteristiche",
+    "related": "Prodotti simili",
+    "incl_tax": "IVA inclusa",
+    "our_wheels": "I nostri torni da vasaio",
+    "accessories": "Accessori"
+  },
+  "shop": {
+    "title": "Torni da vasaio",
+    "description": "Produzione artigianale francese di torni da vasaio professionali e accessori",
+    "breadcrumb": "Negozio"
+  },
+  "contact": {
+    "title": "Contattateci",
+    "subtitle": "Una domanda, un preventivo, un progetto? Non esitate a scriverci o a chiamarci.",
+    "name_label": "Nome",
+    "email_label": "Email",
+    "subject_label": "Oggetto",
+    "phone_label": "Telefono",
+    "message_label": "Messaggio",
+    "submit": "Invia il messaggio",
+    "required_fields": "I campi contrassegnati con * sono obbligatori.",
+    "name_placeholder": "Il vostro nome",
+    "email_placeholder": "vostra@email.it",
+    "phone_placeholder": "+39 000 000 0000",
+    "message_placeholder": "Descrivete il vostro progetto o la vostra richiesta...",
+    "subject_default": "Scegliete un oggetto",
+    "subject_machining": "Lavorazione meccanica",
+    "subject_welding": "Saldatura",
+    "subject_pottery": "Torni da vasaio / Negozio",
+    "subject_engineering": "Ingegneria informatica",
+    "subject_other": "Altro",
+    "address": "Indirizzo",
+    "follow_us": "Seguici",
+    "do_not_fill": "Non compilare"
+  },
+  "legal": {
+    "title": "Note legali",
+    "meta_description": "Note legali del sito comua.fr",
+    "editor": "Editore del sito",
+    "hosting": "Hosting",
+    "hosting_text": "Questo sito è ospitato da Netlify, Inc.",
+    "ip": "Proprietà intellettuale",
+    "ip_text": "Tutti i contenuti (testi, immagini, loghi, video) presenti sul sito comua.fr sono protetti dal diritto della proprietà intellettuale. Qualsiasi riproduzione, rappresentazione o diffusione, totale o parziale, dei contenuti di questo sito è vietata senza la preventiva autorizzazione di COMUA.",
+    "data": "Dati personali",
+    "data_text": "Le informazioni raccolte tramite il modulo di contatto sono destinate a COMUA e sono necessarie per l'elaborazione della vostra richiesta. Conformemente al Regolamento Generale sulla Protezione dei Dati (RGPD), avete il diritto di accesso, rettifica e cancellazione dei vostri dati personali. Per esercitare questo diritto, contattateci tramite",
+    "cookies": "Cookie",
+    "cookies_text": "Questo sito utilizza cookie tecnici necessari al suo corretto funzionamento. Nessun cookie pubblicitario o di tracciamento viene utilizzato.",
+    "liability": "Responsabilità",
+    "liability_text": "COMUA si impegna a garantire l'esattezza delle informazioni pubblicate su questo sito. Tuttavia, COMUA non può garantire l'esattezza, la completezza e l'attualità delle informazioni e declina ogni responsabilità per eventuali errori od omissioni."
+  },
+  "returns": {
+    "title": "Politica di rimborsi e resi",
+    "meta_description": "Politica di rimborso e reso per i prodotti acquistati su comua.fr",
+    "withdrawal": "Diritto di recesso",
+    "withdrawal_text": "Conformemente all'articolo L221-18 del Codice del consumo, disponete di un termine di <strong>14 giorni</strong> dalla ricezione del vostro ordine per esercitare il diritto di recesso, senza dover giustificare alcun motivo né pagare alcuna penale.",
+    "conditions": "Condizioni di reso",
+    "conditions_intro": "Per essere accettato, il reso deve soddisfare le seguenti condizioni:",
+    "condition_1": "Il prodotto deve essere restituito nel suo imballaggio originale, in perfetto stato",
+    "condition_2": "Il prodotto non deve essere stato utilizzato, modificato o danneggiato",
+    "condition_3": "La richiesta di reso deve essere inviata per email entro il termine di 14 giorni",
+    "procedure": "Procedura di reso",
+    "procedure_1": "Contattateci per email indicando il numero del vostro ordine",
+    "procedure_2": "Vi confermeremo la procedura di reso e l'indirizzo di spedizione",
+    "procedure_3": "Spedite il prodotto a vostre spese, con raccomandata con ricevuta di ritorno",
+    "procedure_4": "Il rimborso verrà effettuato entro 14 giorni dalla ricezione del prodotto restituito",
+    "refund": "Rimborso",
+    "refund_text": "Il rimborso verrà effettuato con lo stesso metodo di pagamento utilizzato al momento dell'ordine. Le spese di reso restano a carico del cliente.",
+    "defective": "Prodotti difettosi",
+    "defective_text": "Se ricevete un prodotto difettoso o danneggiato durante il trasporto, contattateci entro <strong>48 ore</strong> dalla ricezione. Ci faremo carico del reso e della sostituzione del prodotto.",
+    "contact": "Contatti",
+    "contact_text": "Per qualsiasi domanda relativa a un reso o un rimborso, contattateci:"
+  },
+  "error404": {
+    "title": "Pagina non trovata",
+    "description": "La pagina che state cercando non esiste o è stata spostata.",
+    "back_home": "Torna alla home",
+    "contact_us": "Contattaci"
+  },
+  "a11y": {
+    "skip_to_content": "Vai al contenuto principale",
+    "cart": "Carrello",
+    "open_menu": "Apri il menu",
+    "close_menu": "Chiudi il menu",
+    "main_nav": "Navigazione principale",
+    "mobile_nav": "Navigazione mobile",
+    "breadcrumb": "Breadcrumb",
+    "open_cart": "Apri il carrello"
+  },
+  "meta": {
+    "default_description": "COMUA — Lavorazione meccanica, Saldatura, Torni da vasaio, Ingegneria informatica",
+    "home_title": "COMUA — Lavorazione meccanica, Saldatura, Ceramica, Ingegneria",
+    "contact_title": "Contatti — COMUA",
+    "contact_description": "Contattate COMUA per i vostri progetti di lavorazione meccanica, saldatura, torni da vasaio o ingegneria informatica.",
+    "shop_title": "Torni da vasaio e accessori — COMUA",
+    "shop_description": "Scoprite i nostri torni da vasaio professionali fabbricati in Francia e i nostri accessori: girelle, pedali, vasche e piattelli.",
+    "error404_title": "Pagina non trovata — COMUA"
+  }
+}

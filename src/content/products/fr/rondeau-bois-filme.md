@@ -1,4 +1,5 @@
 ---
+locale: "fr"
 name: "Rondeau Bois Filmé"
 price: 12
 category: "accessoires"

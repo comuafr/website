@@ -1,4 +1,5 @@
 ---
+locale: "fr"
 name: "Tour de potier Rosa"
 price: 1793
 category: "tours"

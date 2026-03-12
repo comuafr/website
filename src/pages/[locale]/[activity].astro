@@ -1,0 +1,47 @@
+---
+import ActivityLayout from '../../layouts/ActivityLayout.astro';
+import { getCollection, render } from 'astro:content';
+import { locales, routeMap, reverseRouteMap, type Locale } from '../../i18n';
+
+export async function getStaticPaths() {
+  const activities = await getCollection('activities');
+  // poterie is handled by [shop]/index.astro, not here
+  const activityKeys = ['usinage', 'soudure', 'ingenierie'];
+  const paths: any[] = [];
+
+  for (const locale of locales.filter(l => l !== 'fr')) {
+    const map = routeMap[locale];
+    for (const key of activityKeys) {
+      const translatedSlug = map[key];
+      // Find the activity content for this locale, fallback to French
+      const localeActivity = activities.find(a => a.data.locale === locale && a.id.endsWith(key));
+      const frActivity = activities.find(a => a.data.locale === 'fr' && a.id.endsWith(key));
+      const activity = localeActivity || frActivity;
+      if (activity) {
+        paths.push({
+          params: { locale, activity: translatedSlug },
+          props: { activity, locale, pathKey: `/${key}` },
+        });
+      }
+    }
+  }
+
+  return paths;
+}
+
+const { activity, locale, pathKey } = Astro.props as { activity: any; locale: Locale; pathKey: string };
+const { Content } = await render(activity);
+---
+
+<ActivityLayout
+  title={activity.data.title}
+  subtitle={activity.data.subtitle}
+  description={activity.data.description}
+  accentColor={activity.data.accentColor}
+  icon={activity.data.icon}
+  capabilities={activity.data.capabilities}
+  pathKey={pathKey}
+  locale={locale}
+>
+  <Content />
+</ActivityLayout>

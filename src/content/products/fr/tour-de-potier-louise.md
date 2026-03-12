@@ -1,4 +1,5 @@
 ---
+locale: "fr"
 name: "Tour de potier Louise"
 price: 1569
 category: "tours"

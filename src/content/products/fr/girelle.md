@@ -1,4 +1,5 @@
 ---
+locale: "fr"
 name: "Girelle"
 price: 109
 category: "accessoires"
