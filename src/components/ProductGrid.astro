@@ -31,7 +31,7 @@ const sorted = [...products].sort((a, b) => a.data.order - b.data.order);
       price={product.data.price}
       image={product.data.image}
       description={product.data.description}
-      slug={product.id}
+      slug={product.id.includes('/') ? product.id.split('/').pop()! : product.id}
       inStock={product.data.inStock}
       locale={locale}
     />
